@@ -3,16 +3,40 @@
 <data>
     <lesson number="1">
         <vocabulary>
-            <word meaning="i,me" w="私" reading="わたし"></word>
+            <word meaning="i,me" w="私" reading="わたし" polite="polite"></word>
             <word meaning="you" w="あなた"></word>
             <word meaning="that person,he,she" w="あの人" reading="あのひと"></word>
             <word meaning="that person,he,she" w="あのかた" reading="あのかた" polite="polite"></word>
+            
             <word meaning="instructor,teacher" w="先生" reading="せんせい" notes="Not used when refering to one's own Job"></word>
             <word meaning="instructor,teacher" w="教師" reading="きょうし" notes="Only used when refereing to one's job"></word>
             <word meaning="student" w="学生" reading="がくせい"></word>
             <word meaning="company employee" w="会社員" reading="かいしゃいん"></word>
             <word meaning="employee" w="社員" reading="しゃいん"></word>
             <word meaning="bank employee" w="銀行員" reading="ぎんこういん"></word>
+            <word meaning="doctor" w="医者" reading="いしゃ"></word>
+            <word meaning="researcher,scholar" w="研究者" reading="けんきゅしゃ"></word>
+            
+            <word meaning="university" w="大学" reading="だいがく"></word>
+            <word meaning="hospital" w="病院" reading="びょういん"></word>
+
+            <word meaning="who" w="だれ"></word>
+            <word meaning="who" w="どなた" polite="polite"></word>
+
+            <word meaning="years old" w="歳" reading="さい" notes="I am 5 years old \n私は五歳です"></word>
+            <word meaning="how old" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。"></word>
+            <word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'"></word>
+            <word meaning="no" w="いいえ"></word>
+
+            <word meaning="how do you do" w="初めまして" reading="はじめまして" notes="Usually used as the first phase when introducing oneself"></word>
+
+            <word meaning="nice to meet you" w="よろしく" notes="Used as part of self introduction (less polite)"></word>
+            <word meaning="nice to meet you" w="どうぞよろしくお願いいたします" reading="どうぞよろしくおねがいします" polite="polite" notes="[どうぞ]　よろしく　[お願いします]\nLit: I am meeting you for the first time"></word>
+
+            <word meaning="excuse me but" w="失礼しますが" reading="しつれいしますが" notes="used when asking someone for personal information"></word>
+
+            <word meaning="your name" w="お名前は" reading="おなまえは" polite="polite" notes="May I ask your name?"></word>
+
         </vocabulary>
     </lesson>
 </data>
