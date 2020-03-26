@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listening</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/listenStyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/2.2.0/eruda.js"></script>
-    <script>eruda.init();</script>
+    <script>//eruda.init();</script>
 
-    
     <script>
         // load data
         let list_words = []
+        let xmlFile = ""
         let lessonTotal = 0
         let xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
+        xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 loadData(this.responseXML)
             }
@@ -23,24 +26,66 @@
         xhttp.send()
 
         function loadData(xml) {
+            xmlFile = xml
             const lessons = xml.getElementsByTagName('lesson')
             lessonTotal = lessons.length
-            for(let i = 0; i < lessonTotal; i++)
-            {
-                const words = lessons[i].getElementsByTagName('word')
-                for(let j = 0; j < words.length; j++)
-                {
-                    let arr = []
-                    arr.push(words[j].getAttribute('w'))
-                    arr.push(words[j].getAttribute('meaning').split(','))
-                    arr.push(words[j].hasAttribute('polite'))
-                    list_words.push(arr)
+            for (let i = 0; i < lessonTotal; i++) {
+                const listItem = document.createElement('li')
+                listItem.classList.add('list-group-item')
+                listItem.classList.add('card-list')
+
+                const input = document.createElement('input')
+                input.setAttribute('type', 'checkbox')
+                input.classList.add('lesson-check')
+                input.dataset.lessonNumber = i
+                listItem.append(input)
+
+                const label = document.createElement('label')
+                label.innerHTML = "Lesson " + (i + 1) + ":  " + lessons[i].getAttribute('name')
+                listItem.append(label)
+
+                document.getElementById('list').append(listItem)
+            }
+            document.getElementById('lesson-number-say').innerHTML = lessonTotal + " lessons are loaded, choose which lessons do you want for listenning:"
+            document.getElementById('lesson-select').onclick = (e) => {
+                let all = document.getElementsByClassName('lesson-check')
+                for (let i = 0; i < all.length; i++) {
+
+                    if (all[i].checked == true) {
+                        const words = lessons[all[i].dataset.lessonNumber].getElementsByTagName('word')
+                        for (let j = 0; j < words.length; j++) {
+                            let arr = []
+                            arr.push(words[j].getAttribute('w'))
+                            arr.push(words[j].getAttribute('meaning').split(','))
+                            arr.push(words[j].hasAttribute('polite'))
+                            list_words.push(arr)
+                        }
+                    }
+                }
+                if (list_words.length > 0) {
+                    document.getElementById('overlay').remove()
+                    document.getElementById('opening-card').remove()
                 }
             }
+
         }
     </script>
 </head>
-<body style="background-color: black; color:white;" id="body-id">
+
+<body id="body-id">
+    <!-- Overlay for selecting lessons -->
+    <div id="overlay"></div>
+    <div id="opening-card" class="card text-center">
+        <div class="card-body" id="lesson-number-say">
+            There are 9 lessons, choose which lessons do you want for listenning:
+        </div>
+        <div style="min-height: 250px;"></div>
+        <ul class="list-group list-group-flush" id="list"></ul>
+        </ul>
+        <a href="#" class="card-link" id="lesson-select" style="margin-top: 3%; margin-bottom: 3%;">Submit</a>
+    </div>
+
+    <!--Actual content-->
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
@@ -53,31 +98,31 @@
                 <h4 id="wrong">Wrong: </h4>
             </div>
         </div>
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 95vh;">
-            <div style="display: flex; flex-direction: row; justify-content: center;">
+        <div class="center-align-col">
+            <div class="center-align-row">
                 <button id="listen-voice">
                     Listen
                 </button>
             </div>
             <div>
-                <div style="display: flex; flex-direction: row; justify-content: center; margin-top: 1%">
+                <div class="center-align-row" style="margin-top: 1%">
                     <input type="text" id="input-text" placeholder="Enter answer Here" autocomplete="off" />
                 </div>
-                <div style="display: flex; flex-direction: row; justify-content: center; margin-top: 1%;">
+                <div class="center-align-row" style="margin-top: 1%;">
                     <button id="submit-btn" style="width: 100px;">Submit</button>
                     <button id="dk-btn" style="width: 100px">Don't Know</button>
                 </div>
             </div>
-            <div style="display: flex; flex-direction: row; justify-content: center;">
+            <div class="center-align-row">
                 <label style="margin-bottom: 0px;">Polite From:</label>
                 <input type="checkbox" id="input-polite" style="height: 100%; width: auto; margin-left: 6px;">
             </div>
-            <div style="display: flex; flex-direction: row; justify-content: center;">
+            <div class="center-align-row">
                 <h4 id="status">Correct/Wrong Status</h4>
             </div>
         </div>
     </div>
-    
+
     <script>
 
         let usedWords = []
@@ -94,13 +139,13 @@
         let wrongElement = document.getElementById('wrong')
 
         function getRndInteger(min, max) {
-            return Math.floor(Math.random() * (max - min) ) + min;
+            return Math.floor(Math.random() * (max - min)) + min;
         }
         function getVoices() {
             if (voices.length !== 0) return
             voices = synth.getVoices()
             voices.forEach(voice => {
-                if(voice.lang === 'ja-JP' || voice.lang === 'ja_JP' || voice.lang === 'jpn-JPN')  {
+                if (voice.lang === 'ja-JP' || voice.lang === 'ja_JP' || voice.lang === 'jpn-JPN') {
                     let opt = document.createElement('option')
                     opt.text = voice.name
                     voicesElement.add(opt)
@@ -110,12 +155,11 @@
         }
         function newWord() {
             let w = getRndInteger(0, list_words.length)
-            if(usedWords.length == list_words.length)
-            {
+            if (usedWords.length == list_words.length) {
                 statusElement.innerHTML = "Tis Over"
                 return
             }
-            if (typeof usedWords.find((s) => s === w) !=='undefined')
+            if (typeof usedWords.find((s) => s === w) !== 'undefined')
                 newWord()
             else {
                 currentWord = w
@@ -123,26 +167,23 @@
             }
         }
 
-        function checkAnswer(answer, politeForm)
-        {
+        function checkAnswer(answer, politeForm) {
             let found = typeof list_words[currentWord][1].find((s) => s.toLowerCase() === answer) !== 'undefined'
-            
-            if(found && list_words[currentWord][2] == politeForm)
-            {
+
+            if (found && list_words[currentWord][2] == politeForm) {
                 return 1;
             } else {
                 return 0;
             }
         }
-
         document.getElementById('body-id').onload = () => {
             currentWord = getRndInteger(0, list_words.length)
             getVoices()
-            if(synth.onvoiceschanged !== undefined) synth.onvoiceschanged = getVoices
+            if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = getVoices
         }
 
         document.getElementById('listen-voice').addEventListener('click', () => {
-            if(synth.speaking)
+            if (synth.speaking)
                 return
             const speechText = new SpeechSynthesisUtterance(list_words[currentWord][0])
             speechText.onend = () => {
@@ -150,10 +191,9 @@
                 statusElement.innerHTML = "Type the meaning above"
             }
             voices.forEach(voice => {
-                if(voice.name === voicesElement.options[voicesElement.selectedIndex].value)
-                    {
-                        speechText.voice = voice
-                    }
+                if (voice.name === voicesElement.options[voicesElement.selectedIndex].value) {
+                    speechText.voice = voice
+                }
             })
             synth.speak(speechText)
             statusElement.innerHTML = "Listen"
@@ -165,19 +205,16 @@
             let politeForm = document.getElementById('input-polite').checked
             document.getElementById('input-polite').checked = false
             document.getElementById('input-text').value = ''
-            if (val === "" || typeof val === 'undefined')
-            {
+            if (val === "" || typeof val === 'undefined') {
                 statusElement.innerHTML = "Something is wrong, please try again"
                 return
             }
             let returnVal = checkAnswer(val, politeForm)
-            if(returnVal == 1)
-            {
+            if (returnVal == 1) {
                 statusElement.innerHTML = "Correct answer"
                 correct.push(currentWord)
             }
-            else 
-            {
+            else {
                 statusElement.innerHTML = "Wrong answer"
                 wrong.push(currentWord)
             }
@@ -186,7 +223,8 @@
             rightElement.innerHTML = "Right: " + correct.length
             wrongElement.innerHTML = "Wrong: " + wrong.length
         }
-        
+
     </script>
 </body>
+
 </html>

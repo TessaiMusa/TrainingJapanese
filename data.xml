@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 
 <data>
-    <lesson number="1">
+    <lesson name="初めまして">
         <vocabulary>
             <word meaning="i,me" w="私" reading="わたし" polite="polite"></word>
             <word meaning="you" w="あなた"></word>
