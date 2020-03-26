@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <data>
     <lesson number="1">
@@ -6,7 +6,7 @@
             <word meaning="i,me" w="私" reading="わたし"></word>
             <word meaning="you" w="あなた"></word>
             <word meaning="that person,he,she" w="あの人" reading="あのひと"></word>
-            <word meaning="that person,he,she" w="あの方" reading="あのかた" polite="true"></word>
+            <word meaning="that person,he,she" w="あのかた" reading="あのかた" polite="polite"></word>
             <word meaning="instructor,teacher" w="先生" reading="せんせい" notes="Not used when refering to one's own Job"></word>
             <word meaning="instructor,teacher" w="教師" reading="きょうし" notes="Only used when refereing to one's job"></word>
             <word meaning="student" w="学生" reading="がくせい"></word>
