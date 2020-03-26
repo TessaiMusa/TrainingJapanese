@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listening</title>
+    <title>Reading</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
@@ -46,7 +46,7 @@
 
                 document.getElementById('list').append(listItem)
             }
-            document.getElementById('lesson-number-say').innerHTML = lessonTotal + " lessons are loaded, choose which lessons do you want for listening:"
+            document.getElementById('lesson-number-say').innerHTML = lessonTotal + " lessons are loaded, choose which lessons do you want for reading:"
             document.getElementById('lesson-select').onclick = (e) => {
                 let all = document.getElementsByClassName('lesson-check')
                 for (let i = 0; i < all.length; i++) {
@@ -55,8 +55,8 @@
                         const words = lessons[all[i].dataset.lessonNumber].getElementsByTagName('word')
                         for (let j = 0; j < words.length; j++) {
                             let arr = []
-                            if(words[j].hasAttribute(voice))
-                                arr.push(words[j].getAttribute('voice'))
+                            if(words[j].hasAttribute('reading'))
+                                arr.push(words[j].getAttribute('reading'))
                             else
                                 arr.push(words[j].getAttribute('w'))
                             arr.push(words[j].getAttribute('meaning').split(','))
@@ -68,6 +68,7 @@
                 if (list_words.length > 0) {
                     document.getElementById('overlay').remove()
                     document.getElementById('opening-card').remove()
+                    newWord()
                 }
             }
 
@@ -95,18 +96,13 @@
                 <h4 id="right">Right: </h4>
             </div>
             <div class="col-sm-8">
-                <select id="voices" style="width: 100%;"></select>
+                <h2 id="read-content" class="text-center">Hello</h2>
             </div>
             <div class="col-sm-2">
                 <h4 id="wrong">Wrong: </h4>
             </div>
         </div>
         <div class="center-align-col">
-            <div class="center-align-row">
-                <button id="listen-voice">
-                    Listen
-                </button>
-            </div>
             <div>
                 <div class="center-align-row" style="margin-top: 1%">
                     <input type="text" id="input-text" placeholder="Enter answer Here" autocomplete="off" />
@@ -136,26 +132,15 @@
 
         const synth = window.speechSynthesis;
 
-        let voicesElement = document.getElementById('voices')
         let statusElement = document.getElementById('status')
         let rightElement = document.getElementById('right')
         let wrongElement = document.getElementById('wrong')
+        let readElement = document.getElementById('read-content')
 
         function getRndInteger(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
         }
-        function getVoices() {
-            if (voices.length !== 0) return
-            voices = synth.getVoices()
-            voices.forEach(voice => {
-                if (voice.lang === 'ja-JP' || voice.lang === 'ja_JP' || voice.lang === 'jpn-JPN') {
-                    let opt = document.createElement('option')
-                    opt.text = voice.name
-                    voicesElement.add(opt)
-                }
-            })
-            statusElement.innerHTML = "Voices Loaded: " + voices.length
-        }
+        
         function newWord() {
             let w = getRndInteger(0, list_words.length)
             if (usedWords.length == list_words.length) {
@@ -166,6 +151,7 @@
                 newWord()
             else {
                 currentWord = w
+                readElement.innerHTML = list_words[w][0];
                 return
             }
         }
@@ -179,29 +165,6 @@
                 return 0;
             }
         }
-        document.getElementById('body-id').onload = () => {
-            currentWord = getRndInteger(0, list_words.length)
-            getVoices()
-            if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = getVoices
-        }
-
-        document.getElementById('listen-voice').addEventListener('click', () => {
-            if (synth.speaking)
-                return
-            const speechText = new SpeechSynthesisUtterance(list_words[currentWord][0])
-            speechText.onend = () => {
-                console.log('ended')
-                statusElement.innerHTML = "Type the meaning above"
-            }
-            voices.forEach(voice => {
-                if (voice.name === voicesElement.options[voicesElement.selectedIndex].value) {
-                    speechText.voice = voice
-                }
-            })
-            synth.speak(speechText)
-            statusElement.innerHTML = "Listen"
-
-        })
 
         document.getElementById('submit-btn').onclick = () => {
             let val = document.getElementById('input-text').value.toLowerCase()
