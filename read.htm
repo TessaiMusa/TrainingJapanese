@@ -130,8 +130,6 @@
         let wrong = []
         let voices = []
 
-        const synth = window.speechSynthesis;
-
         let statusElement = document.getElementById('status')
         let rightElement = document.getElementById('right')
         let wrongElement = document.getElementById('wrong')
@@ -144,7 +142,7 @@
         function newWord() {
             let w = getRndInteger(0, list_words.length)
             if (usedWords.length == list_words.length) {
-                statusElement.innerHTML = "Tis Over"
+                statusElement.innerHTML = "Complete!"
                 return
             }
             if (typeof usedWords.find((s) => s === w) !== 'undefined')

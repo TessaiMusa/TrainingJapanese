@@ -34,7 +34,7 @@
 			</word>
 			<word meaning="who" w="どなた" polite="polite">
 			</word>
-			<word meaning="years old" w="歳" reading="さい" notes="I am 5 years old \n私は五歳です">
+			<word meaning="years old" w="歳" reading="さい" voice="さい" notes="I am 5 years old \n私は五歳です">
 			</word>
 			<word meaning="how old" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。">
 			</word>
@@ -46,7 +46,7 @@
 			</word>
 			<word meaning="nice to meet you" w="よろしく" notes="Used as part of self introduction (less polite)">
 			</word>
-			<word meaning="nice to meet you" w="どうぞ　よろしく　お願いいたします" reading="どうぞ　よろしく　おねがいします" polite="polite" notes="[どうぞ]　よろしく　[お願いします]\nLit: I am meeting you for the first time">
+			<word meaning="nice to meet you" w="どうぞ　よろしく　お願いします" reading="どうぞ　よろしく　おねがいします" polite="polite" notes="[どうぞ]　よろしく　[お願いします]\nLit: I am meeting you for the first time">
 			</word>
 			<word meaning="excuse me but" w="失礼しますが" reading="しつれいしますが" notes="used when asking someone for personal information">
 			</word>
@@ -96,7 +96,7 @@
 			</word>
 			<word meaning="personal organizer,pocket diary" w="手帳" reading="てちょう">
 			</word>
-			<word meaning="business card,name card" w="名称" reading="めいし">
+			<word meaning="business card,name card" w="名称" reading="めいし" voice="めいし">
 			</word>
 			<word meaning="credit card" w="カード" notes="(credit) card">
 			</word>
@@ -138,7 +138,7 @@
 			</word>
 			<word meaning="japanese" w="日本語" reading="にほんご">
 			</word>
-			<word meaning="language" w="語" reading="ご">
+			<word meaning="language" w="語" reading="ご" voice="ご">
 			</word>
 
 		</vocabulary>
