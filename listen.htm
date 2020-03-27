@@ -55,7 +55,7 @@
                         const words = lessons[all[i].dataset.lessonNumber].getElementsByTagName('word')
                         for (let j = 0; j < words.length; j++) {
                             let arr = []
-                            if(words[j].hasAttribute(voice))
+                            if(words[j].hasAttribute('voice'))
                                 arr.push(words[j].getAttribute('voice'))
                             else
                                 arr.push(words[j].getAttribute('w'))
