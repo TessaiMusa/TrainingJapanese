@@ -2,145 +2,171 @@
 <data>
 	<lesson name="初めまして">
 		<vocabulary>
-			<word meaning="i,me" w="私" reading="わたし" polite="polite">
-			</word>
-			<word meaning="you" w="あなた">
-			</word>
-			<word meaning="that person,he,she" w="あの人" reading="あのひと">
-			</word>
-			<word meaning="that person,he,she" w="あの方" reading="あのかた" polite="polite" voice="あのかた">
-			</word>
-			<word meaning="instructor,teacher" w="先生" reading="せんせい" notes="Not used when refering to one's own Job">
-			</word>
-			<word meaning="instructor,teacher" w="教師" reading="きょうし" notes="Only used when refereing to one's job">
-			</word>
-			<word meaning="student" w="学生" reading="がくせい">
-			</word>
-			<word meaning="company employee" w="会社員" reading="かいしゃいん">
-			</word>
-			<word meaning="employee" w="社員" reading="しゃいん">
-			</word>
-			<word meaning="bank employee" w="銀行員" reading="ぎんこういん">
-			</word>
-			<word meaning="doctor" w="医者" reading="いしゃ">
-			</word>
-			<word meaning="researcher,scholar" w="研究者" reading="けんきゅしゃ">
-			</word>
-			<word meaning="university" w="大学" reading="だいがく">
-			</word>
-			<word meaning="hospital" w="病院" reading="びょういん">
-			</word>
-			<word meaning="who" w="だれ">
-			</word>
-			<word meaning="who" w="どなた" polite="polite">
-			</word>
-			<word meaning="years old" w="歳" reading="さい" voice="さい" notes="I am 5 years old \n私は五歳です">
-			</word>
-			<word meaning="how old" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。">
-			</word>
-			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'">
-			</word>
-			<word meaning="no" w="いいえ">
-			</word>
-			<word meaning="how do you do" w="初めまして" reading="はじめまして" notes="Usually used as the first phase when introducing oneself">
-			</word>
-			<word meaning="nice to meet you" w="よろしく" notes="Used as part of self introduction (less polite)">
-			</word>
-			<word meaning="nice to meet you" w="どうぞ　よろしく　お願いします" reading="どうぞ　よろしく　おねがいします" polite="polite" notes="[どうぞ]　よろしく　[お願いします]\nLit: I am meeting you for the first time">
-			</word>
-			<word meaning="excuse me but" w="失礼しますが" reading="しつれいしますが" notes="used when asking someone for personal information">
-			</word>
-			<word meaning="your name" w="お名前は" reading="おなまえは" polite="polite" notes="May I ask your name?">
-			</word>
-			<word meaning="usa,america" w="アメリカ">
-			</word>
-			<word meaning="uk,england" w="イギリス">
-			</word>
-			<word meaning="india" w="インド">
-			</word>
-			<word meaning="indonesia" w="インドネシア">
-			</word>
-			<word meaning="south korea,korea" w="韓国" reading="かんこく">
-			</word>
-			<word meaning="tailand" w="タイ">
-			</word>
-			<word meaning="china" w="中国" reading="ちゅうごく">
-			</word>
-			<word meaning="brazil" w="ブラジル">
-			</word>
+			<word meaning="i,me" w="私" reading="わたし" polite="polite"></word>
+			<word meaning="you" w="あなた"></word>
+			<word meaning="that person,he,she" w="あの人" reading="あのひと"></word>
+			<word meaning="that person,he,she" w="あの方" reading="あのかた" polite="polite" voice="あのかた"></word>
+
+			<word meaning="instructor,teacher" w="先生" reading="せんせい" notes="Not used when refering to one's own Job"></word>
+			<word meaning="instructor,teacher" w="教師" reading="きょうし" notes="Only used when refereing to one's job"></word>
+			<word meaning="student" w="学生" reading="がくせい"></word>
+			<word meaning="company employee" w="会社員" reading="かいしゃいん"></word>
+			<word meaning="employee" w="社員" reading="しゃいん"></word>
+			<word meaning="bank employee" w="銀行員" reading="ぎんこういん"></word>
+			<word meaning="doctor" w="医者" reading="いしゃ"></word>
+			<word meaning="researcher,scholar" w="研究者" reading="けんきゅしゃ"></word>
+			
+			<word meaning="university" w="大学" reading="だいがく"></word>
+			<word meaning="hospital" w="病院" reading="びょういん"></word>
+			
+			<word meaning="who" w="だれ"></word>
+			<word meaning="who" w="どなた" polite="polite"></word>
+
+			<word meaning="years old,age" w="歳" reading="さい" voice="さい" notes="I am 5 years old \n私は五歳です"></word>
+			<word meaning="how old" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。"></word>
+			
+			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'"></word>
+			<word meaning="no" w="いいえ"></word>
+			
+			<word meaning="how do you do" w="初めまして" reading="はじめまして" notes="Usually used as the first phase when introducing oneself"></word>
+			<word meaning="pleased to meet you" w="よろしく" notes="Used as part of self introduction (less polite)"></word>
+			<word meaning="come from" w="から来ました" reading="からきました"></word>
+			<word meaning="pleased to meet you" w="どうぞ　よろしく　お願いします" reading="どうぞ　よろしく　おねがいします" polite="polite" notes="[どうぞ]　よろしく　[お願いします]\nLit: I am meeting you for the first time"></word>
+			<word meaning="excuse me but" w="失礼しますが" reading="しつれいしますが" notes="used when asking someone for personal information"></word>
+			<word meaning="your name" w="お名前は" reading="おなまえは" polite="polite" notes="May I ask your name?"></word>
+			
+			<word meaning="usa,america" w="アメリカ"></word>
+			<word meaning="uk,england" w="イギリス"></word>
+			<word meaning="india" w="インド"></word>
+			<word meaning="indonesia" w="インドネシア"></word>
+			<word meaning="south korea,korea" w="韓国" reading="かんこく"></word>
+			<word meaning="tailand" w="タイ"></word>
+			<word meaning="china" w="中国" reading="ちゅうごく"></word>
+			<word meaning="brazil" w="ブラジル"></word>
 		</vocabulary>
 	</lesson>
 	<lesson name="これから　お世話に　なります">
 		<vocabulary>
-			<word meaning="this thing" w="これ">
-			</word>
-			<word meaning="that thing" w="それ" notes="near the listener">
-			</word>
-			<word meaning="that thing" w="あれ" notes="away from both speaker and listenner">
-			</word>
-			<word meaning="this" w="この">
-			</word>
-			<word meaning="that" w="その" notes="near the listener">
-			</word>
-			<word meaning="that" w="あの" notes="away from both speaker and listenner">
-			</word>
-			<word meaning="book" w="本" reading="ほん">
-			</word>
-			<word meaning="dictionary" w="辞書" reading="じしょ">
-			</word>
-			<word meaning="magazine" w="雑誌" reading="magazine">
-			</word>
-			<word meaning="newspaper" w="新聞" reading="しんぶん">
-			</word>
-			<word meaning="notebook,note" w="ノート">
-			</word>
-			<word meaning="personal organizer,pocket diary" w="手帳" reading="てちょう">
-			</word>
-			<word meaning="business card,name card" w="名称" reading="めいし" voice="めいし">
-			</word>
-			<word meaning="credit card" w="カード" notes="(credit) card">
-			</word>
-			<word meaning="pencil" w="鉛筆" reading="えんぴつ">
-			</word>
-			<word meaning="ballpen,ballpoint pen" w="ボールペン">
-			</word>
-			<word meaning="mechanical pencil" w="シャープペンシル">
-			</word>
-			<word meaning="key" w="かぎ">
-			</word>
-			<word meaning="watch,clock" w="時計" reading="とけい">
-			</word>
-			<word meaning="umbrella" w="傘" reading="かさ">
-			</word>
-			<word meaning="bag,briefcase" w="かばん">
-			</word>
-			<word meaning="television,tv" w="テレビ">
-			</word>
-			<word meaning="radio" w="ラジオ">
-			</word>
-			<word meaning="camera" w="カメラ">
-			</word>
-			<word meaning="computer" w="コンピューター">
-			</word>
-			<word meaning="car,vehicle" w="車" reading="くるま">
-			</word>
-			<word meaning="desk,table" w="机" reading="つくえ">
-			</word>
-			<word meaning="chair" w="いす">
-			</word>
-			<word meaning="chocolate" w="チョコレート">
-			</word>
-			<word meaning="coffee" w="コーヒー">
-			</word>
-			<word meaning="souvenier" w="お土産" reading="おみやげ">
-			</word>
-			<word meaning="english" w="英語" reading="えいご">
-			</word>
-			<word meaning="japanese" w="日本語" reading="にほんご">
-			</word>
-			<word meaning="language" w="語" reading="ご" voice="ご">
-			</word>
+			<word meaning="this thing" w="これ"></word>
+			<word meaning="that thing" w="それ" notes="near the listener"></word>
+			<word meaning="that thing" w="あれ" notes="away from both speaker and listenner"></word>
 
+			<word meaning="this" w="この"></word>
+			<word meaning="that" w="その" notes="near the listener"></word>
+			<word meaning="that" w="あの" notes="away from both speaker and listenner"></word>
+			
+			<word meaning="book" w="本" reading="ほん"></word>
+			<word meaning="dictionary" w="辞書" reading="じしょ"></word>
+			<word meaning="magazine" w="雑誌" reading="magazine"></word>
+			<word meaning="newspaper" w="新聞" reading="しんぶん"></word>
+			<word meaning="notebook,note" w="ノート"></word>
+			<word meaning="personal organizer,pocket diary" w="手帳" reading="てちょう"></word>
+			<word meaning="business card,name card" w="名称" reading="めいし" voice="めいし"></word>
+			<word meaning="credit card" w="カード" notes="(credit) card"></word>
+
+			<word meaning="pencil" w="鉛筆" reading="えんぴつ"></word>
+			<word meaning="ballpen,ballpoint pen" w="ボールペン"></word>
+			<word meaning="mechanical pencil" w="シャープペンシル"></word>
+			
+			<word meaning="key" w="かぎ"></word>
+			<word meaning="watch,clock" w="時計" reading="とけい"></word>
+			<word meaning="umbrella" w="傘" reading="かさ"></word>
+			<word meaning="bag,briefcase" w="かばん"></word>
+			
+			<word meaning="television,tv" w="テレビ"></word>
+			<word meaning="radio" w="ラジオ"></word>
+			<word meaning="camera" w="カメラ"></word>
+			<word meaning="computer" w="コンピューター"></word>
+			<word meaning="car,vehicle" w="車" reading="くるま"></word>
+			
+			<word meaning="desk,table" w="机" reading="つくえ"></word>
+			<word meaning="chair" w="いす"></word>
+			
+			<word meaning="chocolate" w="チョコレート"></word>
+			<word meaning="coffee" w="コーヒー"></word>
+			<word meaning="souvenier" w="お土産" reading="おみやげ"></word>
+			
+			<word meaning="english" w="英語" reading="えいご"></word>
+			<word meaning="japanese" w="日本語" reading="にほんご"></word>
+			<word meaning="language" w="語" reading="ご" voice="ご"></word>
+		</vocabulary>
+	</lesson>
+	<lesson name="これから　お世話ね　なります。">
+		<vocabulary>
+			<word meaning="this place,here" w="ここ"></word>
+			<word meaning="that place,there" w="そこ" notes="near the listener"></word>
+			<word meaning="that place over there,there" w="あそこ" notes="far from both speaker and listenner"></word>
+			<word meaning="where,what place" w="どこ"></word>
+
+			<word meaning="this way,this place" w="こちら" polite="polite"></word>	
+			<word meaning="that way,that place" w="そちら" polite="polite"></word>	
+			<word meaning="that way,that place over there" w="あちら" polite="polite"></word>	
+			<word meaning="which way,where" w="どちら" polite="polite"></word>	
+
+			<word meaning="classroom" w="教室" reading="きょうしつ"></word>
+			<word meaning="dinning hall,canteen" w="食堂" reading="しょくどう"></word>
+			<word meaning="office" w="事務所" reading="じむしょ"></word>				
+			<word meaning="conference room,meeting hall" w="会議室" reading="かいぎしつ"></word>
+			<word meaning="reception desk" w="受付" reading="うけつけ"></word>
+			<word meaning="lobby" w="ロビー"></word>
+			<word meaning="room" w="部屋" reading="へや"></word>
+			<word meaning="toilet,restroom" w="トイレ"></word>
+			<word meaning="toilet,restroom" w="お手洗い" meaning="おてあらい"></word>
+
+			<word meaning="staircase" w="階段" reading="かいだん"></word>
+			<word meaning="lift,elevator" w="エレベーター"></word>
+			<word meaning="escalator" w="エスカレーター"></word>
+			<word meaning="vending machine" w="自動販売機" reading="じどうはんばいき"></word>
+
+			<word meaning="telephone" w="電話" reading="でんわ"></word>
+			<word meaning="country" w="お国" reading="おくに" polite="polite"></word>
+			<word meaning="company" w="会社" reading="かいしゃ"></word>
+			<word meaning="house" w="うち"></word>
+
+			<word meaning="shoes" w="靴" reading="くつ"></word>
+			<word meaning="tie,necktie" w="ネクタイ"></word>
+			<word meaning="wine" w="ワイン"></word>
+
+			<word meaning="counter in department store" w="売り場" reading="うりば"></word>
+
+			<word meaning="basement" w="地下" reading="ちか"></word>
+			<word meaning="floor" w="階" reading="かい"></word>
+			<word meaning="what floor" w="何階" reading="なんがい"></word>
+
+			<word meaning="yen" w="円" reading="えん"></word>
+			<word meaning="how much" w="いくら"></word>
+
+			<word meaning="0" w="ゼロ"></word>
+			<word meaning="0" w="零" reading="れい"></word>
+			<word meaning="1" w="一" reading="いち"></word>
+			<word meaning="2" w="ニ" reading="に"></word>
+			<word meaning="3" w="三" reading="さん"></word>
+			<word meaning="4" w="四" reading="よん"></word>
+			<word meaning="5" w="五" reading="ご"></word>
+			<word meaning="6" w="六" reading="ろく"></word>
+			<word meaning="7" w="七" reading="なな"></word>
+			<word meaning="8" w="八" reading="はち"></word>
+			<word meaning="9" w="九" reading="きゅう"></word>
+
+			<word meaning="10" w="十" reading="じゅう"></word>
+			<word meaning="100" w="百" reading="ひゃく"></word>
+			<word meaning="1000" w="千" reading="せん"></word>
+			<word meaning="10000" w="万" reading="まん"></word>
+
+			<word meaning="excuse me" w="すみません"></word>
+			<word meaning="thanks" w="どうも"></word>
+
+			<word meaning="welcome" w="いらっしゃいます"></word>
+			<word meaning="show me" w="見せてください" reading="みせてください"></word>
+			<word meaning="well,then,in that case" w="じゃ"></word>
+			<word meaning="give me" w="ください"></word>
+
+			<word meaning="italy" w="イタリア"></word>
+			<word meaning="switzerland" w="スイス"></word>
+			<word meaning="france" w="フランス"></word>
+			<word meaning="jakarta" w="ジャカルタ"></word>
+			<word meaning="bankok" w="バンコク"></word>
+			<word meaning="berlin" w="ベルリン"></word>
 		</vocabulary>
 	</lesson>
 </data>
