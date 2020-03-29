@@ -111,7 +111,7 @@
 			<word meaning="lobby" w="ロビー"></word>
 			<word meaning="room" w="部屋" reading="へや"></word>
 			<word meaning="toilet,restroom" w="トイレ"></word>
-			<word meaning="toilet,restroom" w="お手洗い" meaning="おてあらい"></word>
+			<word meaning="toilet,restroom" w="お手洗い" reading="おてあらい"></word>
 
 			<word meaning="staircase" w="階段" reading="かいだん"></word>
 			<word meaning="lift,elevator" w="エレベーター"></word>
