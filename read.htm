@@ -135,6 +135,10 @@
         let wrongElement = document.getElementById('wrong')
         let readElement = document.getElementById('read-content')
 
+        function showWrong(word) {
+            alert('Wrong Answer, the correct answer is: ' + list_words[currentWord][1].toString())
+        }
+
         function getRndInteger(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
         }
@@ -180,6 +184,7 @@
             }
             else {
                 statusElement.innerHTML = "Wrong answer"
+                showWrong(currentWord)
                 wrong.push(currentWord)
             }
             usedWords.push(currentWord)

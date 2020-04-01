@@ -79,6 +79,12 @@
     <!-- Overlay for selecting lessons -->
     <div id="overlay"></div>
     <div id="opening-card" class="card text-center">
+        <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item card-list">
+                <input type="checkbox" id="repeat-incorrect" checked>
+                <label>Repeat incorrect ones</label>
+            </li>
+        </ul>
         <div class="card-body" id="lesson-number-say">
             There are 9 lessons, choose which lessons do you want for listenning:
         </div>
@@ -140,6 +146,11 @@
         let statusElement = document.getElementById('status')
         let rightElement = document.getElementById('right')
         let wrongElement = document.getElementById('wrong')
+        let repeatIncorrect = document.getElementById('repeat-incorrect')
+
+        function showWrong(word) {
+            alert('Wrong Answer, the correct answer is: ' + list_words[currentWord][1].toString())
+        }
 
         function getRndInteger(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
@@ -179,6 +190,7 @@
                 return 0;
             }
         }
+
         document.getElementById('body-id').onload = () => {
             currentWord = getRndInteger(0, list_words.length)
             getVoices()
@@ -216,12 +228,15 @@
             if (returnVal == 1) {
                 statusElement.innerHTML = "Correct answer"
                 correct.push(currentWord)
+                usedWords.push(currentWord)
             }
             else {
                 statusElement.innerHTML = "Wrong answer"
+                showWrong(currentWord)
                 wrong.push(currentWord)
+                if (!repeatIncorrect.checked)
+                    usedWords.push(currentWord)
             }
-            usedWords.push(currentWord)
             newWord()
             rightElement.innerHTML = "Right: " + correct.length
             wrongElement.innerHTML = "Wrong: " + wrong.length
