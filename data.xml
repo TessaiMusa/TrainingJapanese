@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-	<lesson name="初めまして">
+	<lesson name="初めまして。">
 		<vocabulary>
 			<word meaning="i,me" w="私" reading="わたし" polite="polite"></word>
 			<word meaning="you" w="あなた"></word>
@@ -45,7 +45,7 @@
 			<word meaning="brazil" w="ブラジル"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="これから　お世話に　なります">
+	<lesson name="これから　お世話に　なります。">
 		<vocabulary>
 			<word meaning="this thing" w="これ"></word>
 			<word meaning="that thing" w="それ" notes="near the listener"></word>
@@ -84,7 +84,7 @@
 			
 			<word meaning="chocolate" w="チョコレート"></word>
 			<word meaning="coffee" w="コーヒー"></word>
-			<word meaning="souvenier" w="お土産" reading="おみやげ"></word>
+			<word meaning="souvenir" w="お土産" reading="おみやげ"></word>
 			
 			<word meaning="english" w="英語" reading="えいご"></word>
 			<word meaning="japanese" w="日本語" reading="にほんご"></word>
@@ -169,7 +169,7 @@
 			<word meaning="berlin" w="ベルリン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="そちらわ　なんじまでですか？">
+	<lesson name="そちらわ　なんじまでですか。">
 		<vocabulary>
 			<word meaning="get up,wake up" w="起きます" reading="おきます"></word>
 			<word meaning="sleep,go to bed" w="寝ます" reading="ねます"></word>
