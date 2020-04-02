@@ -209,7 +209,7 @@
 			<word meaning="tonight,this evening" w="今晩" reading="こんばん"></word>
 			
 			<word meaning="rest,a day off" w="休み" reading="やすみ"></word>
-			<word meaning="lunchtime,lunchbreak" w="昼休み"></word>
+			<word meaning="lunchtime,lunchbreak" w="昼休み" reading="ひるやすみ"></word>
 			
 			<word meaning="exam,test" w="試験" reading="しけん"></word>
 			<word meaning="meeting,conference" w="会議" reading="かいぎ"></word>
@@ -223,10 +223,10 @@
 			<word meaning="tuesday" w="火曜日" reading="かようび"></word>
 			<word meaning="wednesday" w="水曜日" reading="すいようび"></word>
 			<word meaning="thursday" w="木曜日" reading="もくようび"></word>
-			<word meaning="friday" w="金曜日" reading="きにょうび"></word>
+			<word meaning="friday" w="金曜日" reading="きんようび"></word>
 			<word meaning="saturday" w="土曜日" reading="どようび"></word>
 			<word meaning="sunday" w="日曜日" reading="にちようび"></word>
-			<word meaning="what day" w="何曜日" reading="なにょうび"></word>
+			<word meaning="what day" w="何曜日" reading="なにようび"></word>
 			
 			<word meaning="from" w="から"></word>
 			<word meaning="to,upto" w="まで"></word>
