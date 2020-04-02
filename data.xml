@@ -95,13 +95,13 @@
 		<vocabulary>
 			<word meaning="this place,here" w="ここ"></word>
 			<word meaning="that place,there" w="そこ" notes="near the listener"></word>
-			<word meaning="that place over there,there" w="あそこ" notes="far from both speaker and listenner"></word>
+			<word meaning="that place over there,there,that place" w="あそこ" notes="far from both speaker and listenner"></word>
 			<word meaning="where,what place" w="どこ"></word>
 
 			<word meaning="this way,this place" w="こちら" polite="polite"></word>	
 			<word meaning="that way,that place" w="そちら" polite="polite"></word>	
 			<word meaning="that way,that place over there" w="あちら" polite="polite"></word>	
-			<word meaning="which way,where" w="どちら" polite="polite"></word>	
+			<word meaning="which way,where,what way" w="どちら" polite="polite"></word>	
 
 			<word meaning="classroom" w="教室" reading="きょうしつ"></word>
 			<word meaning="dinning hall,canteen" w="食堂" reading="しょくどう"></word>
