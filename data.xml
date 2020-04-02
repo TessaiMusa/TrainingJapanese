@@ -106,7 +106,7 @@
 			<word meaning="classroom" w="教室" reading="きょうしつ"></word>
 			<word meaning="dinning hall,canteen" w="食堂" reading="しょくどう"></word>
 			<word meaning="office" w="事務所" reading="じむしょ"></word>				
-			<word meaning="conference room,meeting hall" w="会議室" reading="かいぎしつ"></word>
+			<word meaning="conference room,meeting hall,meeting room" w="会議室" reading="かいぎしつ"></word>
 			<word meaning="reception desk" w="受付" reading="うけつけ"></word>
 			<word meaning="lobby" w="ロビー"></word>
 			<word meaning="room" w="部屋" reading="へや"></word>
@@ -136,8 +136,8 @@
 			<word meaning="yen" w="円" reading="えん" voice="えん"></word>
 			<word meaning="how much" w="いくら"></word>
 
-			<word meaning="0" w="ゼロ" reading="れい"></word>
-			<word meaning="0" w="零" reading="れい" voice="れい"></word>
+			<word meaning="0,zero" w="ゼロ" reading="れい"></word>
+			<word meaning="0,zero" w="零" reading="れい" voice="れい"></word>
 			<word meaning="1,one" w="一" reading="いち"></word>
 			<word meaning="2,two" w="ニ" reading="に"></word>
 			<word meaning="3,three" w="三" reading="さん"></word>
@@ -160,7 +160,7 @@
 			<word meaning="thanks" w="どうも"></word>
 
 			<word meaning="welcome" w="いらっしゃいます" polite="polite"></word>
-			<word meaning="show me" w="見せて　ください" reading="みせて　ください"></word>
+			<word meaning="show me" w="見せて　ください" reading="みせて　ください" polite="polite"></word>
 			<word meaning="well,then,in that case" w="じゃ"></word>
 			<word meaning="give me" w="ください" polite="polite"></word>
 
@@ -168,7 +168,7 @@
 			<word meaning="switzerland" w="スイス"></word>
 			<word meaning="france" w="フランス"></word>
 			<word meaning="jakarta" w="ジャカルタ"></word>
-			<word meaning="bankok" w="バンコク"></word>
+			<word meaning="bangkok" w="バンコク"></word>
 			<word meaning="berlin" w="ベルリン"></word>
 		</vocabulary>
 	</lesson>
