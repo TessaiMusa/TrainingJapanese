@@ -136,22 +136,25 @@
 			<word meaning="yen" w="円" reading="えん" voice="えん"></word>
 			<word meaning="how much" w="いくら"></word>
 
-			<word meaning="0" w="ゼロ"></word>
+			<word meaning="0" w="ゼロ" reading="れい"></word>
 			<word meaning="0" w="零" reading="れい" voice="れい"></word>
-			<word meaning="1" w="一" reading="いち"></word>
-			<word meaning="2" w="ニ" reading="に"></word>
-			<word meaning="3" w="三" reading="さん"></word>
-			<word meaning="4" w="四" reading="よん"></word>
-			<word meaning="5" w="五" reading="ご"></word>
-			<word meaning="6" w="六" reading="ろく"></word>
-			<word meaning="7" w="七" reading="なな"></word>
-			<word meaning="8" w="八" reading="はち"></word>
-			<word meaning="9" w="九" reading="きゅう"></word>
+			<word meaning="1,one" w="一" reading="いち"></word>
+			<word meaning="2,two" w="ニ" reading="に"></word>
+			<word meaning="3,three" w="三" reading="さん"></word>
+			<word meaning="4,four" w="四" reading="よん" voice="よん"></word>
+			<word meaning="4,four" w="四" reading="し" voice="し"></word>
+			<word meaning="5,five" w="五" reading="ご"></word>
+			<word meaning="6,six" w="六" reading="ろく"></word>
+			<word meaning="7,seven" w="七" reading="しち" voice="しち"></word>
+			<word meaning="7,seven" w="七" reading="なな" voice="なな"></word>
+			<word meaning="8,eight" w="八" reading="はち"></word>
+			<word meaning="9,nine" w="九" reading="きゅう" voice="きゅう"></word>
+			<word meaning="9,nine" w="九" reading="く" voice="く"></word>
 
-			<word meaning="10" w="十" reading="じゅう"></word>
-			<word meaning="100" w="百" reading="ひゃく"></word>
-			<word meaning="1000" w="千" reading="せん"></word>
-			<word meaning="10000" w="万" reading="まん"></word>
+			<word meaning="10,ten" w="十" reading="じゅう"></word>
+			<word meaning="100,hundred" w="百" reading="ひゃく"></word>
+			<word meaning="1000,thousand" w="千" reading="せん"></word>
+			<word meaning="10000,ten thousand" w="万" reading="まん"></word>
 
 			<word meaning="excuse me" w="すみません"></word>
 			<word meaning="thanks" w="どうも"></word>
