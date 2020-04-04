@@ -175,7 +175,7 @@
 	<lesson name="そちらわ　なんじまでですか。">
 		<vocabulary>
 			<word meaning="get up,wake up" w="起きます" reading="おきます"></word>
-			<word meaning="sleep,go to bed" w="寝ます" reading="ねます"></word>
+			<word meaning="sleep,go to bed,to sleep" w="寝ます" reading="ねます"></word>
 			<word meaning="work" w="働きます" reading="はたらきます"></word>
 			<word meaning="take rest,holiday" w=" 休みます" reading="やすみます"></word>
 			<word meaning="study" w="勉強します" reading="べんきょします"></word>
@@ -211,7 +211,7 @@
 			<word meaning="this morning" w="けさ"></word>
 			<word meaning="tonight,this evening" w="今晩" reading="こんばん"></word>
 			
-			<word meaning="rest,a day off" w="休み" reading="やすみ"></word>
+			<word meaning="rest,a day off,to take leave" w="休み" reading="やすみ"></word>
 			<word meaning="lunchtime,lunchbreak" w="昼休み" reading="ひるやすみ"></word>
 			
 			<word meaning="exam,test" w="試験" reading="しけん"></word>
@@ -235,7 +235,7 @@
 			<word meaning="to,upto" w="まで"></word>
 			<word meaning="and" w="と" notes="used to connect nouns"></word>
 			
-			<word meaning="thats tough isn't it" w="大変ですね" reading="たいへんですね" notes="used when exressing sympathy"></word>
+			<word meaning="thats tough isn't it,its tough isnt it" w="大変ですね" reading="たいへんですね" notes="used when exressing sympathy"></word>
 			
 			<word meaning="number" w="番号" reading="ばんごう"></word>
 			<word meaning="what number" w="何番" reading="なんばん"></word>
