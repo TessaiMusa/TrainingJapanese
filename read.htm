@@ -189,6 +189,7 @@
             }
             usedWords.push(currentWord)
             newWord()
+            document.getElementById('input-text').focus()
             rightElement.innerHTML = "Right: " + correct.length
             wrongElement.innerHTML = "Wrong: " + wrong.length
         }
