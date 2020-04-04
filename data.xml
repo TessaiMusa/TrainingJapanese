@@ -216,7 +216,7 @@
 			
 			<word meaning="exam,test" w="試験" reading="しけん"></word>
 			<word meaning="meeting,conference" w="会議" reading="かいぎ"></word>
-			<word meaning="filim" w="映画" reading="えいが"></word>
+			<word meaning="film,movie" w="映画" reading="えいが"></word>
 
 			<word meaning="every morning" w="毎朝" reading="まいあさ"></word>
 			<word meaning="every night" w="毎晩" reading="まいばん"></word>
@@ -235,11 +235,11 @@
 			<word meaning="to,upto" w="まで"></word>
 			<word meaning="and" w="と" notes="used to connect nouns"></word>
 			
-			<word meaning="thats tough isn't it,its tough isnt it" w="大変ですね" reading="たいへんですね" notes="used when exressing sympathy"></word>
+			<word meaning="thats tough isnt it,its tough isnt it" w="大変ですね" reading="たいへんですね" notes="used when exressing sympathy"></word>
 			
 			<word meaning="number" w="番号" reading="ばんごう"></word>
 			<word meaning="what number" w="何番" reading="なんばん"></word>
-	
+
 			<word meaning="new york" w="ニューヨーク"></word>
 			<word meaning="beijing" w="北京" reading="ペキン"></word>
 			<word meaning="los angeles" w="ロサんゼリス"></word>
