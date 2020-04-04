@@ -177,7 +177,7 @@
 			<word meaning="get up,wake up" w="起きます" reading="おきます"></word>
 			<word meaning="sleep,go to bed,to sleep" w="寝ます" reading="ねます"></word>
 			<word meaning="work" w="働きます" reading="はたらきます"></word>
-			<word meaning="take rest,holiday" w=" 休みます" reading="やすみます"></word>
+			<word meaning="take rest,holiday,rest" w=" 休みます" reading="やすみます"></word>
 			<word meaning="study" w="勉強します" reading="べんきょします"></word>
 			<word meaning="finish" w="終わります" reading="おわります"></word>
 			
@@ -242,7 +242,7 @@
 
 			<word meaning="new york" w="ニューヨーク"></word>
 			<word meaning="beijing" w="北京" reading="ペキン"></word>
-			<word meaning="los angeles" w="ロサんゼリス"></word>
+			<word meaning="los angeles" w="ロサンゼリス"></word>
 			<word meaning="london" w="ロンドン"></word>
 		</vocabulary>
 	</lesson>

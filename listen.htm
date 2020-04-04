@@ -169,7 +169,7 @@
         }
         function newWord() {
             let w = getRndInteger(0, list_words.length)
-            if (usedWords.length == list_words.length) {
+            if (usedWords.length >= list_words.length) {
                 statusElement.innerHTML = "Complete"
                 return
             }
@@ -178,7 +178,6 @@
             else {
                 currentWord = w
                 document.getElementById('listen-voice').click()
-                document.getElementById('input-text').focus()
                 return
             }
         }
@@ -240,6 +239,7 @@
                     usedWords.push(currentWord)
             }
             newWord()
+            document.getElementById('input-text').focus()
             rightElement.innerHTML = "Right: " + correct.length
             wrongElement.innerHTML = "Wrong: " + wrong.length
         }
