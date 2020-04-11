@@ -103,7 +103,7 @@
 			<word meaning="which way,where,what way" w="どちら" polite="polite"></word>	
 
 			<word meaning="classroom" w="教室" reading="きょうしつ"></word>
-			<word meaning="dinning hall,canteen" w="食堂" reading="しょくどう"></word>
+			<word meaning="dining hall,canteen" w="食堂" reading="しょくどう"></word>
 			<word meaning="office" w="事務所" reading="じむしょ"></word>				
 			<word meaning="conference room,meeting hall,meeting room" w="会議室" reading="かいぎしつ"></word>
 			<word meaning="reception desk" w="受付" reading="うけつけ"></word>
@@ -205,7 +205,7 @@
 			<word meaning="yesterday" w="きのう"></word>
 			<word meaning="today" w="きょう"></word>
 			<word meaning="tomorrow" w="あした"></word>
-			<word meaning="day after tommorow" w="あさって"></word>
+			<word meaning="day after tomorrow" w="あさって"></word>
 			
 			<word meaning="this morning" w="けさ"></word>
 			<word meaning="tonight,this evening" w="今晩" reading="こんばん"></word>
@@ -232,7 +232,6 @@
 			
 			<word meaning="from" w="から"></word>
 			<word meaning="to,upto" w="まで"></word>
-			<word meaning="and" w="と" notes="used to connect nouns"></word>
 			
 			<word meaning="thats tough isnt it,its tough isnt it" w="大変ですね" reading="たいへんですね" notes="used when exressing sympathy"></word>
 			
