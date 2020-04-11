@@ -90,7 +90,7 @@
 			<word meaning="japanese" w="日本語" reading="にほんご"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="これから　お世話ね　なります。">
+	<lesson name="これを　ください">
 		<vocabulary>
 			<word meaning="this place,here" w="ここ"></word>
 			<word meaning="that place,there" w="そこ" notes="near the listener"></word>
@@ -171,7 +171,7 @@
 			<word meaning="berlin" w="ベルリン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="そちらわ　なんじまでですか。">
+	<lesson name="そちらは　何時までですか">
 		<vocabulary>
 			<word meaning="get up,wake up" w="起きます" reading="おきます"></word>
 			<word meaning="sleep,go to bed,to sleep" w="寝ます" reading="ねます"></word>
@@ -244,7 +244,7 @@
 			<word meaning="london" w="ロンドン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="">
+	<lesson name="この　電車は　甲子園へ　行きます">
 		<vocabulary>
 			<word meaning="go" w="行きます" reading="いきます"></word>
 			<word meaning="come" w="来ます" reading="きます"></word>
@@ -266,12 +266,55 @@
 
 			<word meaning="person,people" w="人" reading="ひと"></word>
 			<word meaning="friend" w="友達" reading="ともだち"></word>
-			<word meaning="" w=""></word>
-			<word meaning="" w=""></word>
-			<word meaning="" w=""></word>
-			<word meaning="" w=""></word>
-			<word meaning="" w=""></word>
-			<word meaning="" w=""></word>
+			<word meaning="he,boyfriend" w="彼" reading="かれ"></word>
+			<word meaning="she,girlfriend" w="彼女" reading="かのじょ"></word>
+			<word meaning="family" w="家族" reading="かぞく"></word>
+			<word meaning="alone,by oneself" w="一人" reading="ひとり"></word>
+
+			<word meaning="last week" w="先週" reading="せんしゅう"></word>
+			<word meaning="this week" w="今週" reading="こんしゅう"></word>
+			<word meaning="next week" w="来週" reading="らいしゅう"></word>
+			<word meaning="last month" w="先月" reading="せんげつ"></word>
+			<word meaning="this month" w="今月" reading="こんげつ"></word>
+			<word meaning="next month" w="来月" reading="らいげつ"></word>
+			<word meaning="last year" w="去年" reading="きょねん"></word>
+			<word meaning="this year" w="ことし"></word>
+			<word meaning="next year" w="来年" reading="らいねん"></word>
+
+			<word meaning="th year" w="年" reading="ー年"></word>
+			<word meaning="what year" w="何年" reading="なんねん"></word>
+			<word meaning="th month" w="月" reading="ー月"></word>
+			<word meaning="what month" w="何月" reading="なんげつ"></word>
+
+			<word meaning="first day,1st day" w="1日" reading="ついたち"></word>
+			<word meaning="second day,2nd day" w="2日" reading="ふつか"></word>
+			<word meaning="third day,3rd day" w="3日" reading="みっか"></word>
+			<word meaning="fourth day,4th day" w="4日" reading="よっか"></word>
+			<word meaning="fifth day,5th day" w="5日" reading="いつか"></word>
+			<word meaning="sixth day,6th day" w="6日" reading="むいか"></word>
+			<word meaning="seventh day,7th day" w="7日" reading="なのか"></word>
+			<word meaning="eighth day,8th day" w="8日" reading="ようか"></word>
+			<word meaning="ninth day,9th day" w="9日" reading="ここのか"></word>
+			<word meaning="tenth day,10th day" w="10日" reading="とおか"></word>
+			<word meaning="fourteenth day,14th day" w="14日" reading="じょうよっか"></word>
+			<word meaning="twentieth day,20th day" w="20日" reading="はつか"></word>
+			<word meaning="twenty fourth day,24th day" w="24日" reading="にじゅうよっか"></word>
+			<word meaning="th day" w="日" reading="ー日"></word>
+			<word meaning="what day" w="何日" reading="なんにち"></word>
+
+			<word meaning="when" w="いつ"></word>
+
+			<word meaning="birthday" w="誕生日" reading="たんじょうび"></word>
+			
+			<word meaning="yes it is" w="そうですね。"></word>
+
+			<word meaning="your welcome" w="どういたしいまして。"></word>
+			<word meaning="platform" w="番線" reading="ーばんせん"></word>
+			<word meaning="next" w="次の" reading="つぎの"></word>
+			<word meaning="local train" w="普通" reading="ふつう"></word>
+			<word meaning="rapid" w="急行" reading="きゅうこう"></word>
+
+			<word meaning="osaka castle" w="大阪城" reading="おおさかじょう"></word>
 		</vocabulary>
 	</lesson>
 </data>
