@@ -22,7 +22,7 @@
 			<word meaning="who" w="だれ"></word>
 			<word meaning="who" w="どなた" polite="polite"></word>
 
-			<word meaning="years old,age" w="歳" reading="さい" voice="さい" notes="I am 5 years old \n私は五歳です"></word>
+			<word meaning="years old,age" w="歳" reading="さい" voice="ーさい" notes="I am 5 years old \n私は五歳です"></word>
 			<word meaning="how old,what age" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。"></word>
 			
 			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'"></word>
@@ -57,7 +57,7 @@
 			
 			<word meaning="book" w="本" reading="ほん"></word>
 			<word meaning="dictionary" w="辞書" reading="じしょ"></word>
-			<word meaning="magazine" w="雑誌" reading="magazine"></word>
+			<word meaning="magazine" w="雑誌" reading="ざっし"></word>
 			<word meaning="newspaper" w="新聞" reading="しんぶん"></word>
 			<word meaning="notebook,note" w="ノート"></word>
 			<word meaning="personal organizer,pocket diary" w="手帳" reading="てちょう"></word>
@@ -88,7 +88,6 @@
 			
 			<word meaning="english" w="英語" reading="えいご"></word>
 			<word meaning="japanese" w="日本語" reading="にほんご"></word>
-			<word meaning="language" w="語" reading="ご" voice="ご"></word>
 		</vocabulary>
 	</lesson>
 	<lesson name="これから　お世話ね　なります。">
@@ -244,6 +243,36 @@
 			<word meaning="beijing" w="北京" reading="ペキン"></word>
 			<word meaning="los angeles" w="ロサンゼリス"></word>
 			<word meaning="london" w="ロンドン"></word>
+		</vocabulary>
+	</lesson>
+	<lesson name="">
+		<vocabulary>
+			<word meaning="go" w="行きます" reading="いきます"></word>
+			<word meaning="come" w="来ます" reading="きます"></word>
+			<word meaning="return,go home" w="帰ります" reading="かえります"></word>
+
+			<word meaning="school" w="学校" reading="がっこう"></word>
+			<word meaning="supermarket" w="スーパー"></word>
+			<word meaning="station" w="駅" reading="えき"></word>
+
+			<word meaning="aeroplane,plane" w="飛行機" reading="ひこうき"></word>
+			<word meaning="ship" w="船" reading="ふね"></word>
+			<word meaning="electric train" w="電車" reading="でんしゃ"></word>
+			<word meaning="underground,subway" w="地下鉄" reading="ちかてつ"></word>
+			<word meaning="shinkansen,bullet train" w="新幹線" reading="しんかんせん"></word>
+			<word meaning="bus" w="バス"></word>
+			<word meaning="taxi" w="タクシー"></word>
+			<word meaning="bicycle" w="自転車" reading="じてんしゃ"></word>
+			<word meaning="walk,on foot" w="歩いて" reading="あるいて"></word>
+
+			<word meaning="person,people" w="人" reading="ひと"></word>
+			<word meaning="friend" w="友達" reading="ともだち"></word>
+			<word meaning="" w=""></word>
+			<word meaning="" w=""></word>
+			<word meaning="" w=""></word>
+			<word meaning="" w=""></word>
+			<word meaning="" w=""></word>
+			<word meaning="" w=""></word>
 		</vocabulary>
 	</lesson>
 </data>
