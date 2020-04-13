@@ -281,12 +281,12 @@
 			<word meaning="this year" w="ことし"></word>
 			<word meaning="next year" w="来年" reading="らいねん"></word>
 
-			<word meaning="th year" w="年" reading="ー年"></word>
+			<word meaning="year" w="年" reading="ー年"></word>
 			<word meaning="what year" w="何年" reading="なんねん"></word>
-			<word meaning="th month" w="月" reading="ー月"></word>
+			<word meaning="month" w="月" reading="ー月"></word>
 			<word meaning="what month" w="何月" reading="なんげつ"></word>
 
-			<word meaning="first day,1st day" w="1日" reading="ついたち"></word>
+			<word meaning="first day,1st day" w="1日" reading="ついたち" voice="ついたち"></word>
 			<word meaning="second day,2nd day" w="2日" reading="ふつか"></word>
 			<word meaning="third day,3rd day" w="3日" reading="みっか"></word>
 			<word meaning="fourth day,4th day" w="4日" reading="よっか"></word>
@@ -297,9 +297,9 @@
 			<word meaning="ninth day,9th day" w="9日" reading="ここのか"></word>
 			<word meaning="tenth day,10th day" w="10日" reading="とおか"></word>
 			<word meaning="fourteenth day,14th day" w="14日" reading="じょうよっか"></word>
-			<word meaning="twentieth day,20th day" w="20日" reading="はつか"></word>
+			<word meaning="twentieth day,20th day" w="20日" reading="はつか" voice="はつか"></word>
 			<word meaning="twenty fourth day,24th day" w="24日" reading="にじゅうよっか"></word>
-			<word meaning="th day" w="日" reading="ー日"></word>
+			<word meaning="day" w="日" reading="ー日"></word>
 			<word meaning="what day" w="何日" reading="なんにち"></word>
 
 			<word meaning="when" w="いつ"></word>

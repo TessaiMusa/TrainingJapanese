@@ -149,7 +149,10 @@
         let repeatIncorrect = document.getElementById('repeat-incorrect')
 
         function showWrong(word) {
-            alert('Wrong Answer, the correct answer is: ' + list_words[currentWord][1].toString())
+            value = ''
+             value = prompt('Wrong Answer, the correct answer is: ' + list_words[currentWord][1].toString() + '\nType the answer:')
+             if(checkAnswer(value,true,true) != 1)
+                showWrong(word)
         }
 
         function getRndInteger(min, max) {
@@ -182,10 +185,9 @@
             }
         }
 
-        function checkAnswer(answer, politeForm) {
+        function checkAnswer(answer, politeForm, dontPoliteCheck=false) {
             let found = typeof list_words[currentWord][1].find((s) => s.toLowerCase() === answer) !== 'undefined'
-
-            if (found && list_words[currentWord][2] == politeForm) {
+            if (found && (list_words[currentWord][2] == politeForm || dontPoliteCheck)) {
                 return 1;
             } else {
                 return 0;
