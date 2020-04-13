@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listening</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/2.2.0/eruda.js"></script>
+    <script>//eruda.init();</script>
+
+    <script>
+        // load data
+        let list_words = []
+        let xmlFile = ""
+        let lessonTotal = 0
+        let xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                loadData(this.responseXML)
+            }
+        };
+        xhttp.open("GET", "data.xml")
+        xhttp.send()
+
+        function loadData(xml) {
+            xmlFile = xml
+            const lessons = xml.getElementsByTagName('lesson')
+            lessonTotal = lessons.length
+            for (let i = 0; i < lessonTotal; i++) {
+                const listItem = document.createElement('li')
+                listItem.classList.add('list-group-item')
+                listItem.classList.add('card-list')
+
+                const input = document.createElement('input')
+                input.setAttribute('type', 'checkbox')
+                input.classList.add('lesson-check')
+                input.dataset.lessonNumber = i
+                listItem.append(input)
+
+                const label = document.createElement('label')
+                label.innerHTML = "Lesson " + (i + 1) + " :  " + lessons[i].getAttribute('name')　+ "　「" + lessons[i].getElementsByTagName('word').length + "」"
+                listItem.append(label)
+
+                document.getElementById('list').append(listItem)
+            }
+            document.getElementById('lesson-number-say').innerHTML = lessonTotal + " lessons are loaded, choose which lessons do you want for listening:"
+            document.getElementById('lesson-select').onclick = (e) => {
+                let all = document.getElementsByClassName('lesson-check')
+                for (let i = 0; i < all.length; i++) {
+
+                    if (all[i].checked == true) {
+                        const words = lessons[all[i].dataset.lessonNumber].getElementsByTagName('word')
+                        for (let j = 0; j < words.length; j++) {
+                            let arr = []
+                            arr.push(words[j].getAttribute('meaning').split(',')[0])
+                            if(words[j].hasAttribute('reading'))
+                                arr.push([words[j].getAttribute('w'), words[j].getAttribute('reading')])
+                            else
+                                arr.push([words[j].getAttribute('w')])
+                            arr.push(words[j].hasAttribute('polite'))
+                            list_words.push(arr)
+                        }
+                    }
+                }
+                if (list_words.length > 0) {
+                    document.getElementById('overlay').remove()
+                    document.getElementById('opening-card').remove()
+                }
+                newWord()
+            }
+
+        }
+    </script>
+</head>
+
+<body id="body-id">
+    <!-- Overlay for selecting lessons -->
+    <div id="overlay"></div>
+    <div id="opening-card" class="card text-center">
+        <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item card-list">
+                <input type="checkbox" id="repeat-incorrect" checked>
+                <label>Repeat incorrect ones</label>
+            </li>
+        </ul>
+        <div class="card-body" id="lesson-number-say">
+            There are 9 lessons, choose which lessons do you want for listenning:
+        </div>
+        <div style="min-height: 250px;"></div>
+        <ul class="list-group list-group-flush text-left" id="list"></ul>
+        </ul>
+        <a href="#" class="card-link" id="lesson-select" style="margin-top: 3%; margin-bottom: 3%;">Submit</a>
+    </div>
+
+    <!--Actual content-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h4 id="right">Right: </h4>
+            </div>
+            <div class="col-sm-8">
+                <select id="voices" style="width: 100%;"></select>
+            </div>
+            <div class="col-sm-2">
+                <h4 id="wrong">Wrong: </h4>
+            </div>
+        </div>
+        <div class="center-align-col">
+            <div class="center-align-row">
+                <button id="listen-voice">
+                    Listen
+                </button>
+            </div>
+            <div>
+                <div class="center-align-row" style="margin-top: 1%">
+                    <input type="text" id="input-text" placeholder="Enter answer Here" autocomplete="off" />
+                </div>
+                <div class="center-align-row" style="margin-top: 1%;">
+                    <button id="submit-btn" style="width: 100px;">Submit</button>
+                    <button id="dk-btn" style="width: 100px">Don't Know</button>
+                </div>
+            </div>
+            <div class="center-align-row">
+                <label style="margin-bottom: 0px;">Polite From:</label>
+                <input type="checkbox" id="input-polite" style="height: 100%; width: auto; margin-left: 6px;">
+            </div>
+            <div class="center-align-row">
+                <h4 id="status">Correct/Wrong Status</h4>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        let usedWords = []
+        let currentWord = 0;
+        let correct = []
+        let wrong = []
+        let voices = []
+
+        const synth = window.speechSynthesis;
+
+        let voicesElement = document.getElementById('voices')
+        let statusElement = document.getElementById('status')
+        let rightElement = document.getElementById('right')
+        let wrongElement = document.getElementById('wrong')
+        let repeatIncorrect = document.getElementById('repeat-incorrect')
+
+        function showWrong(word) {
+            value = ''
+             value = prompt('Wrong Answer, the correct answer is: ' + list_words[currentWord][1].toString() + '\nType the answer:')
+             if(checkAnswer(value,true,true) != 1)
+                showWrong(word)
+        }
+
+        function getRndInteger(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+        function getVoices() {
+            if (voices.length !== 0) return
+            voices = synth.getVoices()
+            voices.forEach(voice => {
+                if (voice.lang === 'en-GB' || voice.lang === 'en_US' || voice.lang === 'jpn-JPN') {
+                    let opt = document.createElement('option')
+                    opt.text = voice.name
+                    voicesElement.add(opt)
+                }
+            })
+            statusElement.innerHTML = "Voices Loaded: " + voices.length
+        }
+        function newWord() {
+            if (usedWords.length >= list_words.length) {
+                statusElement.innerHTML = "Complete"
+                return
+            }
+            let w = getRndInteger(0, list_words.length)
+            if (typeof usedWords.find((s) => s === w) !== 'undefined')
+                newWord()
+            else {
+                currentWord = w
+                document.getElementById('listen-voice').click()
+                document.getElementById('input-polite').checked = list_words[currentWord][2]
+                return
+            }
+        }
+
+        function checkAnswer(answer, politeForm, dontPoliteCheck=false) {
+            let found = typeof list_words[currentWord][1].find((s) => s.toLowerCase() === answer) !== 'undefined'
+            if (found) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+
+        document.getElementById('body-id').onload = () => {
+            document.getElementById('input-polite').disabled = true
+            currentWord = getRndInteger(0, list_words.length)
+            getVoices()
+            if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = getVoices
+        }
+
+        document.getElementById('listen-voice').addEventListener('click', () => {
+            if (synth.speaking)
+                return
+            const speechText = new SpeechSynthesisUtterance(list_words[currentWord][0])
+            speechText.onend = () => {
+                console.log('ended')
+                statusElement.innerHTML = "Type the meaning above"
+            }
+            voices.forEach(voice => {
+                if (voice.name === voicesElement.options[voicesElement.selectedIndex].value) {
+                    speechText.voice = voice
+                }
+            })
+            synth.speak(speechText)
+            statusElement.innerHTML = "Listen"
+
+        })
+
+        document.getElementById('submit-btn').onclick = () => {
+            let val = document.getElementById('input-text').value.toLowerCase()
+            let politeForm = document.getElementById('input-polite').checked
+            document.getElementById('input-polite').checked = false
+            document.getElementById('input-text').value = ''
+            if (val === "" || typeof val === 'undefined') {
+                statusElement.innerHTML = "Something is wrong, please try again"
+                return
+            }
+            let returnVal = checkAnswer(val, politeForm)
+            if (returnVal == 1) {
+                statusElement.innerHTML = "Correct answer"
+                correct.push(currentWord)
+                usedWords.push(currentWord)
+            }
+            else {
+                statusElement.innerHTML = "Wrong answer"
+                showWrong(currentWord)
+                wrong.push(currentWord)
+                if (!repeatIncorrect.checked)
+                    usedWords.push(currentWord)
+            }
+            newWord()
+            document.getElementById('input-text').focus()
+            rightElement.innerHTML = "Right: " + correct.length
+            wrongElement.innerHTML = "Wrong: " + wrong.length
+        }
+
+    </script>
+</body>
+
+</html>

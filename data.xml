@@ -94,7 +94,7 @@
 		<vocabulary>
 			<word meaning="this place,here" w="ここ"></word>
 			<word meaning="that place,there" w="そこ" notes="near the listener"></word>
-			<word meaning="that place over there,there,that place" w="あそこ" notes="far from both speaker and listenner"></word>
+			<word meaning="that place,that place over there" w="あそこ" notes="far from both speaker and listenner"></word>
 			<word meaning="where,what place" w="どこ"></word>
 
 			<word meaning="this way,this place" w="こちら" polite="polite"></word>	
@@ -269,7 +269,7 @@
 			<word meaning="he,boyfriend" w="彼" reading="かれ"></word>
 			<word meaning="she,girlfriend" w="彼女" reading="かのじょ"></word>
 			<word meaning="family" w="家族" reading="かぞく"></word>
-			<word meaning="alone,by oneself" w="一人" reading="ひとり"></word>
+			<word meaning="alone,by oneself,one person,1 person" w="一人" reading="ひとり"></word>
 
 			<word meaning="last week" w="先週" reading="せんしゅう"></word>
 			<word meaning="this week" w="今週" reading="こんしゅう"></word>
