@@ -136,7 +136,6 @@
         let currentWord = 0;
         let correct = []
         let wrong = []
-        let voices = []
 
         let statusElement = document.getElementById('status')
         let rightElement = document.getElementById('right')
@@ -183,7 +182,6 @@
         document.getElementById('body-id').onload = () => {
             document.getElementById('input-polite').disabled = true
             currentWord = getRndInteger(0, list_words.length)
-            getVoices()
         }
 
         document.getElementById('submit-btn').onclick = () => {
