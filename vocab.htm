@@ -55,13 +55,25 @@
                         const words = lessons[all[i].dataset.lessonNumber].getElementsByTagName('word')
                         for (let j = 0; j < words.length; j++) {
                             let arr = []
-                            arr.push(words[j].getAttribute('meaning'))
-                            if(words[j].hasAttribute('reading'))
+                            let meaning = words[j].getAttribute('meaning')
+                            let found = false
+                            for(let x = 0; x < list_words.length; x++) {
+                                if (list_words[x][0] == meaning) {
+                                    found = true
+                                    list_words[x][1].push(words[j].getAttribute('w'), words[j].getAttribute('reading'))
+                                    break;
+                                }
+                            }
+                            if(!found) {
+                                arr.push(words[j].getAttribute('meaning'))
+                                if(words[j].hasAttribute('reading'))
                                 arr.push([words[j].getAttribute('w'), words[j].getAttribute('reading')])
-                            else
-                                arr.push([words[j].getAttribute('w')])
-                            arr.push(words[j].hasAttribute('polite'))
-                            list_words.push(arr)
+                                else
+                                    arr.push([words[j].getAttribute('w')])
+                                arr.push(words[j].hasAttribute('polite'))
+                                list_words.push(arr)
+                            }
+                            
                         }
                     }
                 }
