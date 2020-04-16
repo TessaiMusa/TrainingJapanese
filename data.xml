@@ -49,11 +49,11 @@
 		<vocabulary>
 			<word meaning="this thing" w="これ"></word>
 			<word meaning="that thing" w="それ" notes="near the listener"></word>
-			<word meaning="that thing" w="あれ" notes="away from both speaker and listenner"></word>
+			<word meaning="that thing,that thing over there" w="あれ" notes="away from both speaker and listenner"></word>
 
 			<word meaning="this" w="この"></word>
 			<word meaning="that" w="その" notes="near the listener"></word>
-			<word meaning="that" w="あの" notes="away from both speaker and listenner"></word>
+			<word meaning="that,that over there" w="あの" notes="away from both speaker and listenner"></word>
 			
 			<word meaning="book" w="本" reading="ほん"></word>
 			<word meaning="dictionary" w="辞書" reading="じしょ"></word>

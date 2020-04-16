@@ -55,7 +55,7 @@
                         const words = lessons[all[i].dataset.lessonNumber].getElementsByTagName('word')
                         for (let j = 0; j < words.length; j++) {
                             let arr = []
-                            arr.push(words[j].getAttribute('meaning').split(',')[0])
+                            arr.push(words[j].getAttribute('meaning'))
                             if(words[j].hasAttribute('reading'))
                                 arr.push([words[j].getAttribute('w'), words[j].getAttribute('reading')])
                             else
@@ -102,7 +102,7 @@
                 <h4 id="right">Right: </h4>
             </div>
             <div class="col-sm-8">
-                <select id="voices" style="width: 100%;"></select>
+                <h2 id="read-content" class="text-center">Hello</h2>
             </div>
             <div class="col-sm-2">
                 <h4 id="wrong">Wrong: </h4>
@@ -141,13 +141,12 @@
         let wrong = []
         let voices = []
 
-        const synth = window.speechSynthesis;
-
         let voicesElement = document.getElementById('voices')
         let statusElement = document.getElementById('status')
         let rightElement = document.getElementById('right')
         let wrongElement = document.getElementById('wrong')
         let repeatIncorrect = document.getElementById('repeat-incorrect')
+        let readElement = document.getElementById('read-content')
 
         function showWrong(word) {
             value = ''
@@ -159,18 +158,7 @@
         function getRndInteger(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
         }
-        function getVoices() {
-            if (voices.length !== 0) return
-            voices = synth.getVoices()
-            voices.forEach(voice => {
-                if (voice.lang === 'en-GB' || voice.lang === 'en_US' || voice.lang === 'jpn-JPN') {
-                    let opt = document.createElement('option')
-                    opt.text = voice.name
-                    voicesElement.add(opt)
-                }
-            })
-            statusElement.innerHTML = "Voices Loaded: " + voices.length
-        }
+        
         function newWord() {
             if (usedWords.length >= list_words.length) {
                 statusElement.innerHTML = "Complete"
@@ -183,6 +171,7 @@
                 currentWord = w
                 document.getElementById('listen-voice').click()
                 document.getElementById('input-polite').checked = list_words[currentWord][2]
+                readElement.innerHTML = list_words[w][0];
                 return
             }
         }
@@ -206,7 +195,6 @@
         document.getElementById('listen-voice').addEventListener('click', () => {
             if (synth.speaking)
                 return
-            const speechText = new SpeechSynthesisUtterance(list_words[currentWord][0])
             speechText.onend = () => {
                 console.log('ended')
                 statusElement.innerHTML = "Type the meaning above"
@@ -216,7 +204,6 @@
                     speechText.voice = voice
                 }
             })
-            synth.speak(speechText)
             statusElement.innerHTML = "Listen"
 
         })
