@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listening</title>
+    <title>Vocabulary</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
@@ -46,7 +46,7 @@
 
                 document.getElementById('list').append(listItem)
             }
-            document.getElementById('lesson-number-say').innerHTML = lessonTotal + " lessons are loaded, choose which lessons do you want for listening:"
+            document.getElementById('lesson-number-say').innerHTML = lessonTotal + " lessons are loaded, choose which lessons do you want for vocabulary:"
             document.getElementById('lesson-select').onclick = (e) => {
                 let all = document.getElementsByClassName('lesson-check')
                 for (let i = 0; i < all.length; i++) {
@@ -87,7 +87,7 @@
             </li>
         </ul>
         <div class="card-body" id="lesson-number-say">
-            There are 9 lessons, choose which lessons do you want for listenning:
+            There are 9 lessons, choose which lessons do you want for vocabulary:
         </div>
         <div style="min-height: 250px;"></div>
         <ul class="list-group list-group-flush text-left" id="list"></ul>
@@ -110,9 +110,6 @@
         </div>
         <div class="center-align-col">
             <div class="center-align-row">
-                <button id="listen-voice">
-                    Listen
-                </button>
             </div>
             <div>
                 <div class="center-align-row" style="margin-top: 1%">
@@ -141,7 +138,6 @@
         let wrong = []
         let voices = []
 
-        let voicesElement = document.getElementById('voices')
         let statusElement = document.getElementById('status')
         let rightElement = document.getElementById('right')
         let wrongElement = document.getElementById('wrong')
@@ -169,7 +165,6 @@
                 newWord()
             else {
                 currentWord = w
-                document.getElementById('listen-voice').click()
                 document.getElementById('input-polite').checked = list_words[currentWord][2]
                 readElement.innerHTML = list_words[w][0];
                 return
@@ -189,24 +184,7 @@
             document.getElementById('input-polite').disabled = true
             currentWord = getRndInteger(0, list_words.length)
             getVoices()
-            if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = getVoices
         }
-
-        document.getElementById('listen-voice').addEventListener('click', () => {
-            if (synth.speaking)
-                return
-            speechText.onend = () => {
-                console.log('ended')
-                statusElement.innerHTML = "Type the meaning above"
-            }
-            voices.forEach(voice => {
-                if (voice.name === voicesElement.options[voicesElement.selectedIndex].value) {
-                    speechText.voice = voice
-                }
-            })
-            statusElement.innerHTML = "Listen"
-
-        })
 
         document.getElementById('submit-btn').onclick = () => {
             let val = document.getElementById('input-text').value.toLowerCase()
