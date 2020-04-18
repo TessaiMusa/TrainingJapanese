@@ -327,4 +327,73 @@
 			<word meaning="osaka castle" w="大阪城" reading="おおさかじょう"></word>
 		</vocabulary>
 	</lesson>
+
+	<lesson name="いっしょに　いきませんか">
+		<vocabulary>
+			<word meaning="eat" w="食べます" reading="たべます"></word>
+			<word meaning="drink" w="飲みます" reading="のみます"></word>
+			<word meaning="smoke" w="吸います" reading="すいます"></word>
+			<word meaning="smoke cigarette" w="たばこを吸います" reading="たばこをすいます"></word>
+			<word meaning="see,look,watch" w="見ます" reading="みます"></word>
+			<word meaning="hear,listen" w="聞きます" reading="ききます"></word>
+			<word meaning="read" w="読みます" reading="よみます"></word>
+			<word meaning="write,draw,paint" w="書きます" reading="かきます"></word>
+
+			<word meaning="buy" w="買います" reading="かいます"></word>
+			<word meaning="make" w="撮ります" reading="とります"></word>
+			<word meaning="take photo" w="写真を撮ります" reading="しゃしんをとります"></word>
+			<word meaning="do,play" w="します"></word>
+			<word meaning="meet" w="会います" reading="あいます"></word>
+			<word meaning="meet friend" w="友達に会います" reading="ともだちにあいます"></word>
+			
+			<word meaning="meal,cooked rice" w="ごはん"></word>
+			<word meaning="breakfast" w="朝ごはん" reading="あさごはん"></word>
+			<word meaning="lunch" w="昼ごはん" reading="ひるごはん"></word>
+			<word meaning="supper,dinner" w="晩ごはん" reading="ばんごはん"></word>
+			
+			<word meaning="bread,bun" w="バン"></word>
+			<word meaning="egg" w="卵" reading="たまご"></word>
+			<word meaning="maet" w="肉" reading="にく"></word>
+			<word meaning="fish" w="魚" reading="さかな"></word>
+			<word meaning="vegetable" w="野菜" reading="やさい"></word>
+			<word meaning="fruit" w="果物" reading="くだもの"></word>
+			
+			<word meaning="water" w="水" reading="みず"></word>
+			<word meaning="tea,green tea" w="お茶" reading="おちゃ" polite="polite"></word>
+			<word meaning="black tea" w="紅茶" reading="こうちゃ"></word>
+			<word meaning="milk" w="牛級" reading="ぎゅうにゅう"></word>
+			<word meaning="milk" w="ミルク"></word>
+			<word meaning="juice" w="ジュース"></word>
+			<word meaning="beer" w="ビール"></word>
+			<word meaning="sake,alchohol" w="お酒" reading="おさけ" polite="polite"></word>
+			<word meaning="tobaco" w="たばこ"></word>
+
+			<word meaning="letter" w="手紙" reading="てがみ"></word>
+			<word meaning="report" w="レポート"></word>
+			<word meaning="photograph" w="写真" reading="しゃしん"></word>
+			<word meaning="video" w="ビデオ"></word>
+
+			<word meaning="shop,store" w="店" reading="みせ"></word>
+			<word meaning="garden" w="鶏" reading="にわ"></word>
+
+			<word meaning="homework" w="宿題" reading="しゅくだい"></word>
+			<word meaning="tennis" w="テニス"></word>
+			<word meaning="soccer,football" w="サッカー"></word>
+			<word meaning="cherry blossom viewing" w="お花見" reading="おはなみ" polite="polite"></word>
+			
+			<word meaning="together" w="いっしょに"></word>
+			<word meaning="a little bit,a little while" w="ちょっと"></word>
+			<word meaning="always" w="いつも"></word>
+			<word meaning="sometimes" w="時々" reading="ときどき"></word>
+			<word meaning="after that,and then" w="それから"></word>
+			<word meaning="yes" w="ええ"></word>
+			
+			<word meaning="thats good" w="いいですね"></word>
+			<word meaning="i see" w="わかりました"></word>
+
+			<word meaning="see you tomorrow" w="じゃ　またあした"></word>
+			<word meaning="mexico" w="メキシコ"></word>
+			
+		</vocabulary>
+	</lesson>
 </data>
