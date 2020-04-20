@@ -178,6 +178,12 @@
             if (typeof usedWords.find((s) => s === w) !== 'undefined')
                 newWord()
             else {
+                if (currentWord == w && !(usedWords.length == list_words - 1))
+                {
+                    newWord()
+                    console.log('running checks')
+                    return
+                }
                 currentWord = w
                 document.getElementById('listen-voice').click()
                 return
