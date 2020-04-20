@@ -22,7 +22,7 @@
 			<word meaning="who" w="だれ"></word>
 			<word meaning="who" w="どなた" polite="polite"></word>
 
-			<word meaning="years old,age" w="歳" reading="さい" voice="ーさい" notes="I am 5 years old \n私は五歳です"></word>
+			<word meaning="years old,age" w="歳" reading="さい" voice="さい" notes="I am 5 years old \n私は五歳です"></word>
 			<word meaning="how old,what age" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。"></word>
 			
 			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'"></word>
@@ -291,9 +291,9 @@
 			<word meaning="this year" w="ことし"></word>
 			<word meaning="next year" w="来年" reading="らいねん"></word>
 
-			<word meaning="year" w="年" reading="ー年"></word>
+			<word meaning="year" w="年" reading="ねん"></word>
 			<word meaning="what year" w="何年" reading="なんねん"></word>
-			<word meaning="month" w="月" reading="ー月"></word>
+			<word meaning="month" w="月" reading="げつ" voice="げつ"></word>
 			<word meaning="what month" w="何月" reading="なんげつ"></word>
 
 			<word meaning="first day,1st day" w="1日" reading="ついたち" voice="ついたち"></word>
@@ -319,7 +319,7 @@
 			<word meaning="yes it is" w="そうですね"></word>
 
 			<word meaning="your welcome" w="どういたしいまして"></word>
-			<word meaning="platform" w="番線" reading="ーばんせん"></word>
+			<word meaning="platform" w="番線" reading="ばんせん"></word>
 			<word meaning="next" w="次の" reading="つぎの"></word>
 			<word meaning="local train" w="普通" reading="ふつう"></word>
 			<word meaning="rapid" w="急行" reading="きゅうこう"></word>
