@@ -182,7 +182,7 @@
 			<word meaning="berlin" w="ベルリン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="そちらは　何時までですか">
+	<lesson name="そちらは　何時までですか。">
 		<vocabulary>
 			<word meaning="get up,wake up" w="起きます" reading="おきます"></word>
 			<word meaning="sleep,go to bed,to sleep" w="寝ます" reading="ねます"></word>
@@ -333,7 +333,7 @@
 			<word meaning="eat" w="食べます" reading="たべます"></word>
 			<word meaning="drink" w="飲みます" reading="のみます"></word>
 			<word meaning="smoke" w="吸います" reading="すいます"></word>
-			<word meaning="smoke cigarette" w="たばこを吸います" reading="たばこをすいます"></word>
+			<word meaning="smoke cigarette,smoke tobacco" w="たばこを吸います" reading="たばこをすいます"></word>
 			<word meaning="see,look,watch" w="見ます" reading="みます"></word>
 			<word meaning="hear,listen" w="聞きます" reading="ききます"></word>
 			<word meaning="read" w="読みます" reading="よみます"></word>
@@ -353,7 +353,7 @@
 			
 			<word meaning="bread,bun" w="バン"></word>
 			<word meaning="egg" w="卵" reading="たまご"></word>
-			<word meaning="maet" w="肉" reading="にく"></word>
+			<word meaning="meat" w="肉" reading="にく"></word>
 			<word meaning="fish" w="魚" reading="さかな"></word>
 			<word meaning="vegetable" w="野菜" reading="やさい"></word>
 			<word meaning="fruit" w="果物" reading="くだもの"></word>
