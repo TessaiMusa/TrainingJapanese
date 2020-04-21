@@ -366,7 +366,7 @@
 			<word meaning="juice" w="ジュース"></word>
 			<word meaning="beer" w="ビール"></word>
 			<word meaning="sake,alchohol" w="お酒" reading="おさけ" polite="polite"></word>
-			<word meaning="tobaco" w="たばこ"></word>
+			<word meaning="tobacco" w="たばこ"></word>
 
 			<word meaning="letter" w="手紙" reading="てがみ"></word>
 			<word meaning="report" w="レポート"></word>
@@ -391,7 +391,7 @@
 			<word meaning="thats good" w="いいですね"></word>
 			<word meaning="i see" w="わかりました"></word>
 
-			<word meaning="see you tomorrow" w="じゃ　またあした"></word>
+			<word meaning="see you tomorrow" w="じゃ、また　あした"></word>
 			<word meaning="mexico" w="メキシコ"></word>
 			
 		</vocabulary>
