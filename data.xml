@@ -361,7 +361,7 @@
 			<word meaning="water" w="水" reading="みず"></word>
 			<word meaning="tea,green tea" w="お茶" reading="おちゃ" polite="polite"></word>
 			<word meaning="black tea" w="紅茶" reading="こうちゃ"></word>
-			<word meaning="milk" w="牛級" reading="ぎゅうにゅう"></word>
+			<word meaning="milk" w="牛級" reading="ぎゅうにゅう" voice="ぎゅうにゅう"></word>
 			<word meaning="milk" w="ミルク"></word>
 			<word meaning="juice" w="ジュース"></word>
 			<word meaning="beer" w="ビール"></word>
