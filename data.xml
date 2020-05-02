@@ -341,10 +341,10 @@
 
 			<word meaning="buy" w="買います" reading="かいます"></word>
 			<word meaning="make" w="撮ります" reading="とります"></word>
-			<word meaning="take photo" w="写真を撮ります" reading="しゃしんをとります"></word>
+			<word meaning="take photo,take a photo, take a photograph" w="写真を撮ります" reading="しゃしんをとります"></word>
 			<word meaning="do,play" w="します"></word>
 			<word meaning="meet" w="会います" reading="あいます"></word>
-			<word meaning="meet friend" w="友達に会います" reading="ともだちにあいます"></word>
+			<word meaning="meet friend,meet friend" w="友達に会います" reading="ともだちにあいます"></word>
 			
 			<word meaning="meal,cooked rice" w="ごはん"></word>
 			<word meaning="breakfast" w="朝ごはん" reading="あさごはん"></word>
@@ -374,7 +374,7 @@
 			<word meaning="video" w="ビデオ"></word>
 
 			<word meaning="shop,store" w="店" reading="みせ"></word>
-			<word meaning="garden" w="鶏" reading="にわ"></word>
+			<word meaning="garden" w="鶏" reading="にわ" voice="にわ"></word>
 
 			<word meaning="homework" w="宿題" reading="しゅくだい"></word>
 			<word meaning="tennis" w="テニス"></word>
@@ -388,10 +388,10 @@
 			<word meaning="after that,and then" w="それから"></word>
 			<word meaning="yes" w="ええ"></word>
 			
-			<word meaning="thats good" w="いいですね"></word>
-			<word meaning="i see" w="わかりました"></word>
+			<word meaning="thats good isnt it" w="いいですね"></word>
+			<word meaning="understood,i understand" w="わかりました"></word>
 
-			<word meaning="see you tomorrow" w="じゃ、また　あした"></word>
+			<word meaning="well see you tomorrow,see you tommorrow" w="じゃ またあした" voice="じゃ、また　あした"></word>
 			<word meaning="mexico" w="メキシコ"></word>
 			
 		</vocabulary>
