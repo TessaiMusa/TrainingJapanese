@@ -340,7 +340,7 @@
 			<word meaning="write,draw,paint" w="書きます" reading="かきます"></word>
 
 			<word meaning="buy" w="買います" reading="かいます"></word>
-			<word meaning="make" w="撮ります" reading="とります"></word>
+			<word meaning="take" w="撮ります" reading="とります"></word>
 			<word meaning="take photo,take a photo, take a photograph" w="写真を撮ります" reading="しゃしんをとります"></word>
 			<word meaning="do,play" w="します"></word>
 			<word meaning="meet" w="会います" reading="あいます"></word>
@@ -394,6 +394,68 @@
 			<word meaning="well see you tomorrow,see you tommorrow" w="じゃ　またあした" voice="じゃ、また　あした"></word>
 			<word meaning="mexico" w="メキシコ"></word>
 			
+		</vocabulary>
+	</lesson>
+	<lesson name="">
+		<vocabulary>
+			<word meaning="cut,slice" w="切ります" reading="きります"></word>
+			<word meaning="send" w="送ります" reading="おくります"></word>
+			<word meaning="give" w="おげます"></word>
+			<word meaning="receive" w="もらいます"></word>
+			<word meaning="lend" w="貸します" reading="かします"></word>
+			<word meaning="borrow" w="借ります" reading="かります"></word>
+			<word meaning="teach" w="教えます" reading="おしえます"></word>
+			<word meaning="learn" w="習います" reading="ならいます"></word>
+			<word meaning="make" w="かけます"></word>
+			<word meaning="make a call,make telephone call, make a telephone call" w="電話をかけます" reading="でんわをかけます"></word>
+			
+			<word meaning="arm,hand" w="手" reading="て"></word>
+			<word meaning="chopsticks" w="はし"></word>
+			<word meaning="spoon" w="スプーン"></word>
+			<word meaning="knife" w="ナイフ"></word>
+			<word meaning="fork" w="フォーク"></word>
+			<word meaning="scissors" w="はさみ"></word>
+			
+			<word meaning="personal computer,pc" w="パソコン"></word>
+			<word meaning="mobile phone" w="ケータイ"></word>
+			
+			<word meaning="mail" w="メール"></word>
+			<word meaning="new year gretting card" w="年賀状" reading="ねんがじょう"></word>
+			
+			<word meaning="punch" w="パンチ"></word>
+			<word meaning="staper" w="ホッチキス"></word>
+			<word meaning="sellotape,scotch tape" w="セロテープ"></word>
+			<word meaning="rubber,eraser" w="消しゴム" reading="けしゴム"></word>
+			<word meaning="paper" w="紙" reading="かみ"></word>
+			
+			<word meaning="flower" w="花" reading="はな"></word>
+			<word meaning="shirt" w="シャツ"></word>
+			<word meaning="present,gift" w="プレゼント"></word>
+			<word meaning="luggage,parcel" w="荷物" reading="にもつ"></word>
+			<word meaning="money" w="お金" reading="おかね" polite="polite"></word>
+			<word meaning="ticket" w="`切符" reading="きっぷ"></word>
+
+			<word meaning="cristmas" w="クリスマス"></word>
+
+			<word meaning="my father" w="父" reading="ちち"></word>
+			<word meaning="my mother" w="母" reading="はは"></word>
+			<word meaning="father" w="お父さん" reading="お父さん" polite="polite"></word>
+			<word meaning="mother" w="お母さん" reading="おかあさん"></word>
+
+			<word meaning="already" w="もう"></word>
+			<word meaning="not yet" w="まだ"></word>
+			<word meaning="from now on,soon,from this" w="これから"></word>
+			
+			<word meaning="it is nice isnt it" w="すできですね"></word>
+
+			<word meaning="welcome" w="いらっしゃい"></word>
+			<word meaning="come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
+			<word meaning="may i" w="失礼します" reading="しつれいします"></word>
+			<word meaning="how is it" w="いかがでしょうか"></word>
+			<word meaning="lets eat" w="いただきます"></word>
+			<word meaning="that was delicious" w="ごしそうさまでした" reading=""></word>
+			
+			<word meaning="spain" w="スペイン"></word>
 		</vocabulary>
 	</lesson>
 </data>
