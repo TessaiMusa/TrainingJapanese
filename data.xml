@@ -391,7 +391,7 @@
 			<word meaning="thats good isnt it" w="いいですね"></word>
 			<word meaning="understood,i understand" w="わかりました"></word>
 
-			<word meaning="well see you tomorrow,see you tommorrow" w="じゃ またあした" voice="じゃ、また　あした"></word>
+			<word meaning="well see you tomorrow,see you tommorrow" w="じゃ　またあした" voice="じゃ、また　あした"></word>
 			<word meaning="mexico" w="メキシコ"></word>
 			
 		</vocabulary>
