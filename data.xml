@@ -420,10 +420,10 @@
 			<word meaning="mobile phone" w="ケータイ"></word>
 			
 			<word meaning="mail" w="メール"></word>
-			<word meaning="new year gretting card" w="年賀状" reading="ねんがじょう"></word>
+			<word meaning="new year greeting card" w="年賀状" reading="ねんがじょう"></word>
 			
 			<word meaning="punch" w="パンチ"></word>
-			<word meaning="staper" w="ホッチキス"></word>
+			<word meaning="stapler" w="ホッチキス"></word>
 			<word meaning="sellotape,scotch tape" w="セロテープ"></word>
 			<word meaning="rubber,eraser" w="消しゴム" reading="けしゴム"></word>
 			<word meaning="paper" w="紙" reading="かみ"></word>
@@ -440,7 +440,7 @@
 			<word meaning="my father" w="父" reading="ちち"></word>
 			<word meaning="my mother" w="母" reading="はは"></word>
 			<word meaning="father" w="お父さん" reading="お父さん" polite="polite"></word>
-			<word meaning="mother" w="お母さん" reading="おかあさん"></word>
+			<word meaning="mother" w="お母さん" reading="おかあさん" polite="polite"></word>
 
 			<word meaning="already" w="もう"></word>
 			<word meaning="not yet" w="まだ"></word>
@@ -449,9 +449,9 @@
 			<word meaning="it is nice isnt it" w="すできですね"></word>
 
 			<word meaning="welcome" w="いらっしゃい"></word>
-			<word meaning="come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
-			<word meaning="may i" w="失礼します" reading="しつれいします"></word>
-			<word meaning="how is it" w="いかがでしょうか"></word>
+			<word meaning="please come in,do come in,come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
+			<word meaning="may i,excuese me" w="失礼します" reading="しつれいします"></word>
+			<word meaning="would you like to have it" w="いかがですか"></word>
 			<word meaning="lets eat" w="いただきます"></word>
 			<word meaning="that was delicious" w="ごしそうさまでした"></word>
 			
