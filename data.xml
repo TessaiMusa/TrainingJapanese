@@ -407,7 +407,7 @@
 			<word meaning="teach" w="教えます" reading="おしえます"></word>
 			<word meaning="learn" w="習います" reading="ならいます"></word>
 			<word meaning="make" w="かけます"></word>
-			<word meaning="make a call,make telephone call, make a telephone call" w="電話をかけます" reading="でんわをかけます"></word>
+			<word meaning="make call,make a call,make telephone call, make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
 			
 			<word meaning="arm,hand" w="手" reading="て"></word>
 			<word meaning="chopsticks" w="はし"></word>
@@ -435,7 +435,7 @@
 			<word meaning="money" w="お金" reading="おかね" polite="polite"></word>
 			<word meaning="ticket" w="`切符" reading="きっぷ"></word>
 
-			<word meaning="cristmas" w="クリスマス"></word>
+			<word meaning="christmas" w="クリスマス"></word>
 
 			<word meaning="my father" w="父" reading="ちち"></word>
 			<word meaning="my mother" w="母" reading="はは"></word>
@@ -453,7 +453,7 @@
 			<word meaning="may i" w="失礼します" reading="しつれいします"></word>
 			<word meaning="how is it" w="いかがでしょうか"></word>
 			<word meaning="lets eat" w="いただきます"></word>
-			<word meaning="that was delicious" w="ごしそうさまでした" reading=""></word>
+			<word meaning="that was delicious" w="ごしそうさまでした"></word>
 			
 			<word meaning="spain" w="スペイン"></word>
 		</vocabulary>
