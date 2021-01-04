@@ -186,7 +186,7 @@
             }
         }
 
-        document.getElementById('submit-btn').onclick = () => {
+        let masterFunction = () => {
             let val = document.getElementById('input-text').value.toLowerCase()
             let politeForm = document.getElementById('input-polite').checked
             document.getElementById('input-polite').checked = false
@@ -213,6 +213,13 @@
             rightElement.innerHTML = "Right: " + correct.length
             wrongElement.innerHTML = "Wrong: " + wrong.length
         }
+
+	document.getElementById('input-text').addEventListener('keyup', function(event) {
+			if (event.keycode === "Enter") {
+				event.preventDefault();
+				masterFunction();    
+			}
+		    })
 
     </script>
 </body>
