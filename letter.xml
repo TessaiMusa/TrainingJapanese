@@ -1,0 +1,77 @@
+<data>
+	<lesson name="Hiragana">
+		<vocabulary>
+			<word meaning="a" w="あ" />
+			<word meaning="i" w="い" />
+			<word meaning="u" w="う" />
+			<word meaning="e" w="え" />
+			<word meaning="o" w="お" />
+			<word meaning="ka" w="か" />
+			<word meaning="ki" w="き" />
+			<word meaning="ku" w="く" />
+			<word meaning="ke" w="け" />
+			<word meaning="ko" w="こ" />
+			<word meaning="ga" w="が" />
+			<word meaning="gi" w="ぎ" />
+			<word meaning="gu" w="ぐ" />
+			<word meaning="ge" w="げ" />
+			<word meaning="go" w="ご" />
+			<word meaning="sa" w="さ" />
+			<word meaning="shi" w="し" />
+			<word meaning="su" w="す" />
+			<word meaning="se" w="せ" />
+			<word meaning="so" w="そ" />
+			<word meaning="za" w="ざ" />
+			<word meaning="ji" w="じ" />
+			<word meaning="zu" w="ず" />
+			<word meaning="ze" w="ぜ" />
+			<word meaning="zo" w="ぞ" />
+			<word meaning="ta" w="た" />
+			<word meaning="chi" w="ち" />
+			<word meaning="tsu" w="つ" />
+			<word meaning="te" w="て" />
+			<word meaning="to" w="と" />
+			<word meaning="da" w="だ" />
+			<word meaning="dji" w="ぢ" />
+			<word meaning="dzu" w="づ" />
+			<word meaning="de" w="で" />
+			<word meaning="do" w="ど" />
+			<word meaning="na" w="な" />
+			<word meaning="ni" w="に" />
+			<word meaning="nu" w="ぬ" />
+			<word meaning="ne" w="ね" />
+			<word meaning="no" w="の" />
+			<word meaning="ha" w="は" />
+			<word meaning="hi" w="ひ" />
+			<word meaning="fu" w="ふ" />
+			<word meaning="he" w="へ" />
+			<word meaning="ho" w="ほ" />
+			<word meaning="ba" w="ば" />
+			<word meaning="bi" w="び" />
+			<word meaning="bu" w="ぶ" />
+			<word meaning="be" w="べ" />
+			<word meaning="bo" w="ぼ" />
+			<word meaning="pa" w="ぱ" />
+			<word meaning="pi" w="ぴ" />
+			<word meaning="pu" w="ぷ" />
+			<word meaning="pe" w="ぺ" />
+			<word meaning="po" w="ぽ" />
+			<word meaning="ma" w="ま" />
+			<word meaning="mi" w="み" />
+			<word meaning="mu" w="む" />
+			<word meaning="me" w="め" />
+			<word meaning="mo" w="も" />
+			<word meaning="ya" w="や" />
+			<word meaning="yu" w="ゆ" />
+			<word meaning="yo" w="よ" />
+			<word meaning="ra" w="ら" />
+			<word meaning="ri" w="り" />
+			<word meaning="ru" w="る" />
+			<word meaning="re" w="れ" />
+			<word meaning="ro" w="ろ" />
+			<word meaning="wa" w="わ" />
+			<word meaning="wo" w="を" />
+			<word meaning="n" w="ん" />
+		</vocabulary>
+	</lesson>
+</data>
