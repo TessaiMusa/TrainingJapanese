@@ -60,7 +60,6 @@
                             else
                                 arr.push(words[j].getAttribute('w'))
                             arr.push(words[j].getAttribute('meaning').split(','))
-                            arr.push(words[j].hasAttribute('polite'))
                             list_words.push(arr)
                         }
                     }
@@ -121,8 +120,6 @@
                 </div>
             </div>
             <div class="center-align-row">
-                <label style="margin-bottom: 0px;">Polite From:</label>
-                <input type="checkbox" id="input-polite" style="height: 100%; width: auto; margin-left: 6px;">
             </div>
             <div class="center-align-row">
                 <h4 id="status">Correct/Wrong Status</h4>
@@ -155,7 +152,7 @@
         function getRndInteger(min, max) {
             return Math.floor(Math.random() * (max - min)) + min;
         }
-        
+
         function newWord() {
             let w = getRndInteger(0, list_words.length)
             if (usedWords.length >= list_words.length) {
@@ -177,9 +174,9 @@
             }
         }
 
-        function checkAnswer(answer, politeForm, dontPoliteCheck=false) {
+        function checkAnswer(answer) {
             let found = typeof list_words[currentWord][1].find((s) => s.toLowerCase() === answer) !== 'undefined'
-            if (found && (list_words[currentWord][2] == politeForm || dontPoliteCheck)) {
+            if (found) {
                 return 1;
             } else {
                 return 0;
@@ -188,14 +185,12 @@
 
         let masterFunction = () => {
             let val = document.getElementById('input-text').value.toLowerCase()
-            let politeForm = document.getElementById('input-polite').checked
-            document.getElementById('input-polite').checked = false
             document.getElementById('input-text').value = ''
             if (val === "" || typeof val === 'undefined') {
                 statusElement.innerHTML = "Something is wrong, please try again"
                 return
             }
-            let returnVal = checkAnswer(val, politeForm)
+            let returnVal = checkAnswer(val)
             if (returnVal == 1) {
                 statusElement.innerHTML = "Correct answer"
                 correct.push(currentWord)
@@ -217,7 +212,7 @@
 	document.getElementById('input-text').addEventListener('keydown', function(event) {
 			if (event.key === "Enter") {
 				event.preventDefault();
-				masterFunction();    
+				masterFunction();
 			}
 		    })
 
