@@ -198,8 +198,8 @@
 			<word meaning="art museum,art gallery" w="美術館" reading="びじゅつかん"></word>
 			
 			<word meaning="now" w="今" reading="いま"></word>
-			<word meaning="time" w="時" reading="ーじ"></word>
-			<word meaning="minute" w="分" reading="ーふん"></word>
+			<word meaning="time" w="時" reading="じ"></word>
+			<word meaning="minute" w="分" reading="ふん"></word>
 			<word meaning="half" w="半" reading="はん"></word>
 			<word meaning="what time" w="何時" reading="なんじ"></word>
 			<word meaning="what minute" w="何分" reading="なんぷん"></word>
@@ -238,7 +238,7 @@
 			<word meaning="friday" w="金曜日" reading="きんようび"></word>
 			<word meaning="saturday" w="土曜日" reading="どようび"></word>
 			<word meaning="sunday" w="日曜日" reading="にちようび"></word>
-			<word meaning="what day" w="何曜日" reading="なにようび"></word>
+			<word meaning="what day" w="何曜日" reading="なんようび"></word>
 			
 			<word meaning="from" w="から"></word>
 			<word meaning="to,upto" w="まで"></word>
