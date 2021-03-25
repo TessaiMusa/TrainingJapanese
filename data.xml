@@ -330,21 +330,21 @@
 
 	<lesson name="いっしょに　行きましょうか">
 		<vocabulary>
-			<word meaning="eat" w="食べます" reading="たべます"></word>
-			<word meaning="drink" w="飲みます" reading="のみます"></word>
-			<word meaning="smoke" w="吸います" reading="すいます"></word>
+			<word meaning="to eat" w="食べます" reading="たべます"></word>
+			<word meaning="to drink" w="飲みます" reading="のみます"></word>
+			<word meaning="to smoke" w="吸います" reading="すいます"></word>
 			<word meaning="smoke cigarette,smoke tobacco" w="たばこを吸います" reading="たばこをすいます"></word>
-			<word meaning="see,look,watch" w="見ます" reading="みます"></word>
-			<word meaning="hear,listen" w="聞きます" reading="ききます"></word>
-			<word meaning="read" w="読みます" reading="よみます"></word>
-			<word meaning="write,draw,paint" w="書きます" reading="かきます"></word>
+			<word meaning="to see,to look,to watch" w="見ます" reading="みます"></word>
+			<word meaning="to hear,to listen" w="聞きます" reading="ききます"></word>
+			<word meaning="to read" w="読みます" reading="よみます"></word>
+			<word meaning="to write,to draw,to paint" w="書きます" reading="かきます"></word>
 
-			<word meaning="buy" w="買います" reading="かいます"></word>
-			<word meaning="take" w="撮ります" reading="とります"></word>
-			<word meaning="take photo,take a photo, take a photograph" w="写真を撮ります" reading="しゃしんをとります"></word>
-			<word meaning="do,play" w="します"></word>
-			<word meaning="meet" w="会います" reading="あいます"></word>
-			<word meaning="meet friend,meet friend" w="友達に会います" reading="ともだちにあいます"></word>
+			<word meaning="to buy" w="買います" reading="かいます"></word>
+			<word meaning="to take" w="撮ります" reading="とります"></word>
+			<word meaning="to take photo,take a photo, take a photograph" w="写真を撮ります" reading="しゃしんをとります"></word>
+			<word meaning="to do,to play" w="します"></word>
+			<word meaning="to meet" w="会います" reading="あいます"></word>
+			<word meaning="meet friend,meet a friend" w="友達に会います" reading="ともだちにあいます"></word>
 			
 			<word meaning="meal,cooked rice" w="ごはん"></word>
 			<word meaning="breakfast" w="朝ごはん" reading="あさごはん"></word>
