@@ -398,16 +398,16 @@
 	</lesson>
 	<lesson name="いらっしゃい">
 		<vocabulary>
-			<word meaning="cut,slice" w="切ります" reading="きります"></word>
-			<word meaning="send" w="送ります" reading="おくります"></word>
-			<word meaning="give" w="おげます"></word>
-			<word meaning="receive" w="もらいます"></word>
-			<word meaning="lend" w="貸します" reading="かします"></word>
-			<word meaning="borrow" w="借ります" reading="かります"></word>
-			<word meaning="teach" w="教えます" reading="おしえます"></word>
-			<word meaning="learn" w="習います" reading="ならいます"></word>
-			<word meaning="make" w="かけます"></word>
-			<word meaning="make call,make a call,make telephone call, make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
+			<word meaning="to cut,to slice" w="切ります" reading="きります"></word>
+			<word meaning="to send" w="送ります" reading="おくります"></word>
+			<word meaning="to give" w="あげます"></word>
+			<word meaning="to receive" w="もらいます"></word>
+			<word meaning="to lend" w="貸します" reading="かします"></word>
+			<word meaning="to borrow" w="借ります" reading="かります"></word>
+			<word meaning="to teach" w="教えます" reading="おしえます"></word>
+			<word meaning="to learn" w="習います" reading="ならいます"></word>
+			<word meaning="to make" w="かけます"></word>
+			<word meaning="to make call,to make a call,to make telephone call,to make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
 			
 			<word meaning="arm,hand" w="手" reading="て"></word>
 			<word meaning="chopsticks" w="はし"></word>
@@ -422,7 +422,7 @@
 			<word meaning="mail" w="メール"></word>
 			<word meaning="new year greeting card" w="年賀状" reading="ねんがじょう"></word>
 			
-			<word meaning="punch" w="パンチ"></word>
+			<word meaning="punch hole, punch4" w="パンチ"></word>
 			<word meaning="stapler" w="ホッチキス"></word>
 			<word meaning="sellotape,scotch tape" w="セロテープ"></word>
 			<word meaning="rubber,eraser" w="消しゴム" reading="けしゴム"></word>
