@@ -184,12 +184,12 @@
 	</lesson>
 	<lesson name="そちらは　何時までですか。">
 		<vocabulary>
-			<word meaning="get up,wake up" w="起きます" reading="おきます"></word>
-			<word meaning="sleep,go to bed,to sleep" w="寝ます" reading="ねます"></word>
-			<word meaning="work" w="働きます" reading="はたらきます"></word>
-			<word meaning="take rest,holiday,rest" w=" 休みます" reading="やすみます"></word>
-			<word meaning="study" w="勉強します" reading="べんきょうします"></word>
-			<word meaning="finish" w="終わります" reading="おわります"></word>
+			<word meaning="to get up,to wake up" w="起きます" reading="おきます"></word>
+			<word meaning="to sleep,go to bed," w="寝ます" reading="ねます"></word>
+			<word meaning="to work" w="働きます" reading="はたらきます"></word>
+			<word meaning="to take rest,holiday,rest" w=" 休みます" reading="やすみます"></word>
+			<word meaning="to study" w="勉強します" reading="べんきょうします"></word>
+			<word meaning="to finish" w="終わります" reading="おわります"></word>
 			
 			<word meaning="department store" w="デパート"></word>
 			<word meaning="bank" w="銀行" reading="ぎんこう"></word>
@@ -256,9 +256,9 @@
 	</lesson>
 	<lesson name="この　電車は　甲子園へ　行きますか">
 		<vocabulary>
-			<word meaning="go" w="行きます" reading="いきます"></word>
-			<word meaning="come" w="来ます" reading="きます"></word>
-			<word meaning="return,go home" w="帰ります" reading="かえります"></word>
+			<word meaning="to go" w="行きます" reading="いきます"></word>
+			<word meaning="to come" w="来ます" reading="きます"></word>
+			<word meaning="to return,to go home" w="帰ります" reading="かえります"></word>
 
 			<word meaning="school" w="学校" reading="がっこう"></word>
 			<word meaning="supermarket" w="スーパー"></word>
