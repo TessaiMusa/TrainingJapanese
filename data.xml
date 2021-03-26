@@ -133,7 +133,7 @@
 			<word meaning="company" w="会社" reading="かいしゃ"></word>
 			<word meaning="house" w="うち"></word>
 
-			<word meaning="shoes" w="靴" reading="くつ"></word>
+			<word meaning="shoes,shoe" w="靴" reading="くつ"></word>
 			<word meaning="tie,necktie" w="ネクタイ"></word>
 			<word meaning="wine" w="ワイン"></word>
 
@@ -409,7 +409,7 @@
 			<word meaning="to make" w="かけます"></word>
 			<word meaning="to make call,to make a call,to make telephone call,to make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
 			
-			<word meaning="arm,hand" w="手" reading="て"></word>
+			<word meaning="arm,hand" w="手" reading="て" voice="て"></word>
 			<word meaning="chopsticks" w="はし"></word>
 			<word meaning="spoon" w="スプーン"></word>
 			<word meaning="knife" w="ナイフ"></word>
@@ -426,27 +426,27 @@
 			<word meaning="stapler" w="ホッチキス"></word>
 			<word meaning="sellotape,scotch tape" w="セロテープ"></word>
 			<word meaning="rubber,eraser" w="消しゴム" reading="けしゴム"></word>
-			<word meaning="paper" w="紙" reading="かみ"></word>
+			<word meaning="paper" w="紙" reading="かみ" voice=" かみ"></word>
 			
 			<word meaning="flower" w="花" reading="はな"></word>
 			<word meaning="shirt" w="シャツ"></word>
 			<word meaning="present,gift" w="プレゼント"></word>
 			<word meaning="luggage,parcel" w="荷物" reading="にもつ"></word>
 			<word meaning="money" w="お金" reading="おかね" polite="polite"></word>
-			<word meaning="ticket" w="`切符" reading="きっぷ"></word>
+			<word meaning="ticket" w="`切符" reading="きっぷ" voice=""></word>
 
 			<word meaning="christmas" w="クリスマス"></word>
 
 			<word meaning="my father" w="父" reading="ちち"></word>
 			<word meaning="my mother" w="母" reading="はは"></word>
-			<word meaning="father" w="お父さん" reading="お父さん" polite="polite"></word>
+			<word meaning="father" w="お父さん" reading="おとうさん" polite="polite" voice="おとうさん"></word>
 			<word meaning="mother" w="お母さん" reading="おかあさん" polite="polite"></word>
 
 			<word meaning="already" w="もう"></word>
 			<word meaning="not yet" w="まだ"></word>
 			<word meaning="from now on,soon,from this" w="これから"></word>
 			
-			<word meaning="it is nice isnt it" w="すできですね"></word>
+			<word meaning="it is nice isnt it,its nice isnt it" w="すできですね"></word>
 
 			<word meaning="welcome" w="いらっしゃい"></word>
 			<word meaning="please come in,do come in,come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
