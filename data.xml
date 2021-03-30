@@ -458,4 +458,79 @@
 			<word meaning="spain" w="スペイン"></word>
 		</vocabulary>
 	</lesson>
+	<lesson name="そろそろ　失礼します">
+		<vocabulary>
+			<word meaning="handsom" w="ハンサムな"></word>
+			<word meaning="beautiful,clean" w="きれいな"></word>
+			<word meaning="quiet" w="静かな" reading="しずかな"></word>
+			<word meaning="lively" w="にぎやかな"></word>
+			<word meaning="famous" w="有名な" reading="ゆうめいな"></word>
+			<word meaning="helpful,kind,considerate" w="親切な" reading="しんせつな"></word>
+
+			<word meaning="healthy" w="元気な" reading="げんきな"></word>
+			<word meaning="free time" w="暇な" reading="ひまな"></word>
+			<word meaning="convenient" w="便利な" reading="べんりな"></word>
+			<word meaning="fine,nice,wonderful" w="すてきな"></word>
+
+			<word meaning="big,large" w="大きな" reading="おおきい"></word>
+			<word meaning="small,little" w="小さい" reading="ちいさい"></word>
+			<word meaning="new,fresh" w="新しい" reading="あたらしい"></word>
+			<word meaning="old" w="古い" reading="ふるい"></word>
+			<word meaning="good" w="いい"></word>
+			<word meaning="bad" w="悪い" reading="わるい"></word>
+			<word meaning="hot thing" w="暑い" reading="あつい"></word>
+			<word meaning="hot to touch" w="熱い" reading="あつい"></word>
+			<word meaning="cold thing" w="寒い" reading="さむい"></word>
+			<word meaning="cold to touch" w="冷たい" reading="つめたい"></word>
+			<word meaning="easy" w="易しい" reading="やさしい"></word>
+			<word meaning="difficult" w="難しい" reading="むずかしい"></word>
+			<word meaning="expensive,tall,high" w="高い" reading="高い"></word>
+			<word meaning="inexpensive,cheap" w="安い" reading="やすい"></word>
+			<word meaning="low" w="低い" reading="ひくい"></word>
+			<word meaning="interesting" w="おもしろい"></word>
+			<word meaning="delicious,tasty" w="おいしい"></word>
+			<word meaning="busy" w="忙しい" reading="いそがしい"></word>
+			<word meaning="enjoyable" w="楽しい" reading="たのしい"></word>
+
+			<word meaning="black" w="黒い" reading="くろい"></word>
+			<word meaning="white" w="白い" reading="しろい"></word>
+			<word meaning="red" w="赤い" reading="あかい"></word>
+			<word meaning="blue" w="青い" reading="あおい"></word>
+
+			<word meaning="cherry blossom,cherry" w="桜" reading="さくら"></word>
+			<word meaning="mountain" w="山" reading="やま"></word>
+			<word meaning="town,city" w="町" reading="まち"></word>
+			<word meaning="food" w="食べ物" reading="たべもの"></word>
+
+			<word meaning="place" w="所" reading="ところ"></word>
+			<word meaning="dormitory" w="寮" reading="りょう"></word>
+			<word meaning="restaurant" w="レストラン"></word>
+			
+			<word meaning="life" w="生活" reading="せいかつ"></word>	
+			<word meaning="work" w="お仕事" reading="おしごと" polite="polite"></word>
+
+			<word meaning="how" w="どう"></word>
+			<word meaning="what kind of" w="どんな"></word>
+			
+			<word meaning="very" w="とても"></word>
+			<word meaning="not so" w="あまり"></word>
+			
+			<word meaning="and" w="そして"></word>
+			<word meaning="but" w="が"></word>
+
+			<word meaning="how are you" w="お元気ですね" reading="おげんきですね" polite="polite"></word>
+			<word meaning="let me see" w="そうですね"></word>
+
+			<word meaning="wont you have another cup" w="もう　一杯　いかがですか" reading="もう　いっぱい　いかがですか"></word>
+			<word meaning="no thank you" w="いいえ、けっこうです"></word>
+			<word meaning="its time i was going" w="そろそろ　失礼します" reding="そろそろ　しつれいします"></word>
+			<word meaning="please come again" w="まだ　いらしゃって　ください"></word>
+
+			<word meaning="shanghai" w="シャンハイ"></word>
+			<word meaning="the golden pavilion" w="金閣寺" reading="きんかくじ"></word>
+			<word meaning="nara park" w="奈良公園" reading="ならこうえん"></word>
+			<word meaning="mt fuji" w="ふじさん"></word>
+			<word meaning="seven samurai" w="七人の　侍" reading="しちにんの　さむらい"></word>
+		</vocabulary>
+	</lesson>
 </data>
