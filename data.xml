@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-	<lesson name="初めまして。">
+	<lesson name="初めまして">
 		<vocabulary>
 			<word meaning="i,me" w="私" reading="わたし" polite="polite"></word>
 			<word meaning="you" w="あなた"></word>
@@ -531,6 +531,76 @@
 			<word meaning="nara park" w="奈良公園" reading="ならこうえん"></word>
 			<word meaning="mt fuji" w="ふじさん"></word>
 			<word meaning="seven samurai" w="七人の　侍" reading="しちにんの　さむらい"></word>
+		</vocabulary>
+	</lesson>
+	<lesson name="残念です">
+		<vocabulary>
+			<word meaning="to understand" w="わかる"></word>
+			<word meaning="to have" w="ある"></word>
+
+			<word meaning="like" w="好きな" reading="すきな"></word>
+			<word meaning="dislike" w="嫌いな" reading="きらいな"></word>
+			<word meaning="good at" w="上手な" reading="じょうずな"></word>
+			<word meaning="poor at" w="下手な" reading="へたな"></word>
+
+			<word meaning="drinks" w="飲み物" reading="のみもの"></word>
+			<word meaning="dish,cooking" w="料理" reading="りょうり"></word>
+
+			<word meaning="sport" w="スポーツ"></word>
+			<word meaning="baseball" w="野球" reading="やきゅう"></word>
+			<word meaning="dance" w="ダンス"></word>
+			<word meaning="trip,tour" w="旅行" reading="りょこう"></word>
+
+			<word meaning="music" w="音楽" reading="おんがく"></word>
+			<word meaning="song" w="歌" reading="うた"></word>
+			<word meaning="classical music" w="クラシック"></word>
+			<word meaning="jazz" w="ジャズ"></word>
+			<word meaning="concert" w="コンサート"></word>
+			<word meaning="karaoke" w="カラオケ"></word>
+			<word meaning="kabiki" w="歌舞伎" reading="歌舞伎"></word>
+
+			<word meaning="picture,drawing" w="絵" reading="え"></word>
+			<word meaning="character" w="字" reading="じ"></word>
+			<word meaning="chinse character" w="漢字" reading="かんじ"></word>
+			<word meaning="hiragana" w="ひらがな"></word>
+			<word meaning="katakana" w="かたかな"></word>
+			<word meaning="roman charcters,roman alphabet" w="ローマ字" reading="ローマじ"></word>
+
+			<word meaning="snall change,change" w="細かい　お金" reading="こまかい　おかね"></word>
+			<word meaning="ticket" w="チケット"></word>
+
+			<word meaning="time" w="時間" reading="じかん"></word>
+			<word meaning="errand,something to do" w="用事" reading="ようじ"></word>
+			<word meaning="promise,appoinment" w="約束" reading="やくそく"></word>
+
+			<word meaning="side job,part time job" w="アルバイト"></word>
+
+			<word meaning="husband" w="ご仕事" reading="ごしごと"></word>
+			<word meaning="my husband" w="夫" reading="おっと"></word>
+			<word meaning="wife" w="奥さん" reading="おくさん"></word>
+			<word meaning="my wife" w="妻" reading="つま"></word>
+			<word meaning="child" w="子ども" reading="こども"></word>
+
+			<word meaning="well,much" w="よく"></word>
+			<word meaning="mostly,roughly" w="だいたい"></word>
+			<word meaning="many,much" w="たくさん"></word>
+			<word meaning="a little,a few" w="すこし" reading="少し"></word>
+			<word meaning="not at all" w="全然" reading="ぜんぜん"></word>
+			<word meaning="early,quickly,fast" w="早く" reading="はやく"></word>
+
+			<word meaning="because" w="から"></word>
+			<word meaning="why" w="どうして"></word>
+
+			<word meaning="please lend it" w="貸して　ください" reading="かして　ください"></word>
+			<word meaning="sure,certainly" w="いいですね"></word>
+			<word meaning="im sorry,unfortunately,regrettable" w="残念です" reading="ざんねんです"></word>
+
+			<word meaning="oh" w="ああ"></word>
+			<word meaning="wont you join us" w="いっしょに　いかがですか"></word>
+			<word meaning="is a bit difficult" w="ちょっと"></word>
+			<word meaning="so you cant come" w="だめですか"></word>
+			<word meaning="please ask me someother time" w="また　今度　お願いします" reading="また　こんど　おねがいします"></word>
+
 		</vocabulary>
 	</lesson>
 </data>
