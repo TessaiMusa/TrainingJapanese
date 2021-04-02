@@ -557,7 +557,7 @@
 			<word meaning="jazz" w="ジャズ"></word>
 			<word meaning="concert" w="コンサート"></word>
 			<word meaning="karaoke" w="カラオケ"></word>
-			<word meaning="kabiki" w="歌舞伎" reading="歌舞伎"></word>
+			<word meaning="kabuki" w="歌舞伎" reading="かぶき"></word>
 
 			<word meaning="picture,drawing" w="絵" reading="え"></word>
 			<word meaning="character" w="字" reading="じ"></word>
@@ -584,7 +584,7 @@
 			<word meaning="well,much" w="よく"></word>
 			<word meaning="mostly,roughly" w="だいたい"></word>
 			<word meaning="many,much" w="たくさん"></word>
-			<word meaning="a little,a few" w="すこし" reading="少し"></word>
+			<word meaning="a little,a few" w="少し" reading="すこし"></word>
 			<word meaning="not at all" w="全然" reading="ぜんぜん"></word>
 			<word meaning="early,quickly,fast" w="早く" reading="はやく"></word>
 
@@ -597,7 +597,6 @@
 
 			<word meaning="oh" w="ああ"></word>
 			<word meaning="wont you join us" w="いっしょに　いかがですか"></word>
-			<word meaning="is a bit difficult" w="ちょっと"></word>
 			<word meaning="so you cant come" w="だめですか"></word>
 			<word meaning="please ask me someother time" w="また　今度　お願いします" reading="また　こんど　おねがいします"></word>
 
