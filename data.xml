@@ -561,7 +561,7 @@
 
 			<word meaning="picture,drawing" w="絵" reading="え"></word>
 			<word meaning="character" w="字" reading="じ"></word>
-			<word meaning="chinse character" w="漢字" reading="かんじ"></word>
+			<word meaning="chinese character" w="漢字" reading="かんじ"></word>
 			<word meaning="hiragana" w="ひらがな"></word>
 			<word meaning="katakana" w="かたかな"></word>
 			<word meaning="roman charcters,roman alphabet" w="ローマ字" reading="ローマじ"></word>
@@ -592,7 +592,7 @@
 			<word meaning="why" w="どうして"></word>
 
 			<word meaning="please lend it" w="貸して　ください" reading="かして　ください"></word>
-			<word meaning="sure,certainly" w="いいですね"></word>
+			<word meaning="sure,certainly" w="いいですよ"></word>
 			<word meaning="im sorry,unfortunately,regrettable" w="残念です" reading="ざんねんです"></word>
 
 			<word meaning="oh" w="ああ"></word>
