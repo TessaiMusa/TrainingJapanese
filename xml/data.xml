@@ -602,4 +602,68 @@
 
 		</vocabulary>
 	</lesson>
+
+	<lesson>
+		<vocabulary>
+			<word meaning="exist - inanimate,to be" w="ある"></word>
+			<word meaning="exist - animate,to be" w="いる"></word>
+
+			<word meaning="various" w="いろいろな"></word>
+
+			<word meaning="man" w="男の　人" reading="おとこの　ひと"></word>
+			<word meaning="woman" w="女の　人" reading="おんなの　ひと"></word>
+			<word meaning="boy" w="男の　子" reading="おとこの　こ"></word>
+			<word meaning="girl" w="女の　子" reading="おんなの　こ"></word>
+
+			<word meaning="dog" w="犬" reading="いぬ"></word>
+			<word meaning="cat" w="猫" reading="ねこ"></word>
+			<word meaning="panda" w="パンダ"></word>
+			<word meaning="elephant" w="象" reading="ぞう"></word>
+			<word meaning="tree,wood" w="木" reading="き"></word>
+
+			<word meaning="thing" w="物" reading="もの"></word>
+			<word meaning="battery" w="電池" reading="でんち"></word>
+			<word meaning="box" w="箱" reading="はこ"></word>
+
+			<word meaning="switch" w=スイッチ""></word>
+			<word meaning="refrigerator,fridge" w="冷蔵庫" reading="れいぞうこ"></word>
+			<word meaning="table" w="テーブル"></word>
+			<word meaning="bed" w="ベット"></word>
+			<word meaning="shelf" w="棚" reading="たな"></word>
+			<word meaning="door" w=""></word>
+			<word meaning="window" w="窓" reading="まど"></word>
+
+			<word meaning="postbox,mailbox" w="ポスト"></word>
+			<word meaning="building" w="ビル"></word>
+			<word meaning="ATM" w="atm"></word>
+
+			<word meaning="convenience store" w="コンビニ"></word>
+			<word meaning="park" w="公園" reading="こうえん"></word>
+			<word meaning="coffee shop,cafe" w="喫茶店" reading="きっさてん"></word>
+			<word meaning="shop,store" w="屋" reading="や"></word>
+			<word meaning="taxi stop" w="乗り場" reading="のりば"></word>
+
+			<word meaning="prefecture" w="県" reading="けん"></word>
+
+			<word meaning="on,above,over" w="上" reading="うえ"></word>
+			<word meaning="under,below,beneath" w="下" reading="した"></word>
+			<word meaning="front,before" w="前" reading="まえ"></word>
+			<word meaning="back,behind" w="後ろ" reading="うしろ"></word>
+			<word meaning="right,right side" w="右" reading="みぎ"></word>
+			<word meaning="left,left side" w="左" reading="ひだり"></word>
+			<word meaning="in,inside" w="中" reading="なか"></word>
+			<word meaning="out,outside" w="外" reading="そと"></word>
+			<word meaning="next,next door" w="隣" reading="どなり"></word>
+			<word meaning="near,vicinity" w="近く" reading="ちかく"></word>
+			<word meaning="between,among" w="間" reading="あいだ"></word>
+
+			<word meaning="so on" w="など"></word>
+
+			<word meaning="thank you" w="どうも　すみません"></word>
+			<word meaning="nam pla" w="ナンプラー"></word>
+			<word meaning="corner,section" w="コーナー"></word>
+			<word meaning="the bottom" w="いちばん　した"></word>
+
+		</vocabulary>
+	</lesson>
 </data>
