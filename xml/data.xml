@@ -603,7 +603,7 @@
 		</vocabulary>
 	</lesson>
 
-	<lesson>
+	<lesson name="ナンプラー、ありますか">
 		<vocabulary>
 			<word meaning="exist - inanimate,to be" w="ある"></word>
 			<word meaning="exist - animate,to be" w="いる"></word>
