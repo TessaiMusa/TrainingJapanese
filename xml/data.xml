@@ -668,79 +668,79 @@
 	</lesson>
 	<lesson name="これ、お願いします">
 		<vocabulary>
-			<word meaning="to have a child" w="子どもが　います" reading="こどもが　います">
-			<word meaning="to stay,to be" w="日本に　います" reading="にほんに　います">
-			<word meaning="to take a resource" w="かかる">
-			<word meaning="to take leave from work" w="会社を　休みます" reading="かいしゃを　やすみます">
+			<word meaning="to have a child" w="子どもが　います" reading="こどもが　います"></word>
+			<word meaning="to stay,to be" w="日本に　います" reading="にほんに　います"></word>
+			<word meaning="to take a resource" w="かかる"></word>
+			<word meaning="to take leave from work" w="会社を　休みます" reading="かいしゃを　やすみます"></word>
 
-			<word meaning="one thing" w="一つ" reading="ひとつ">
-			<word meaning="two things" w="二つ" reading="ふたつ">
-			<word meaning="three things" w="三つ" reading="みっつ">
-			<word meaning="four things" w="四つ" reading="よっつ">
-			<word meaning="five things" w="五つ" reading="いつつ">
-			<word meaning="six things" w="六つ" reading="むっつ">
-			<word meaning="seven things" w="七つ" reading="ななつ">
-			<word meaning="eight things" w="八つ" reading="やっつ">
-			<word meaning="nine things" w="九つ" reading="ここのつ">
-			<word meaning="ten things" w="とお">
-			<word meaning="how many things" w="いくつ">
+			<word meaning="one thing" w="一つ" reading="ひとつ"></word>
+			<word meaning="two things" w="二つ" reading="ふたつ"></word>
+			<word meaning="three things" w="三つ" reading="みっつ"></word>
+			<word meaning="four things" w="四つ" reading="よっつ"></word>
+			<word meaning="five things" w="五つ" reading="いつつ"></word>
+			<word meaning="six things" w="六つ" reading="むっつ"></word>
+			<word meaning="seven things" w="七つ" reading="ななつ"></word>
+			<word meaning="eight things" w="八つ" reading="やっつ"></word>
+			<word meaning="nine things" w="九つ" reading="ここのつ"></word>
+			<word meaning="ten things" w="とお"></word>
+			<word meaning="how many things" w="いくつ"></word>
 
-			<word meaning="one person" w="一人" reading="ひとり">
-			<word meaning="two people" w="二人" reading="ふたり">
-			<word meaning="people" w="人" reading="にん">
+			<word meaning="one person" w="一人" reading="ひとり"></word>
+			<word meaning="two people" w="二人" reading="ふたり"></word>
+			<word meaning="people" w="人" reading="にん"></word>
 
-			<word meaning="counter machines and cars" w="台" reading="だい">
-			<word meaning="counter for paper and stamps" w="枚" reading="まい">
-			<word meaning="times" w="回" reading="かい">
+			<word meaning="counter machines and cars" w="台" reading="だい"></word>
+			<word meaning="counter for paper and stamps" w="枚" reading="まい"></word>
+			<word meaning="times" w="回" reading="かい"></word>
 
-			<word meaning="apple" w="りんご">
-			<word meaning="orange,mandarin orange" w="みかん">
-			<word meaning="sandwitch" w="サンドイッチ">
-			<word meaning="curry with rice" w="カリーライス">
-			<word meaning="ice cream" w="アイスクリーム">
+			<word meaning="apple" w="りんご"></word>
+			<word meaning="orange,mandarin orange" w="みかん"></word>
+			<word meaning="sandwitch" w="サンドイッチ"></word>
+			<word meaning="curry with rice" w="カリーライス"></word>
+			<word meaning="ice cream" w="アイスクリーム"></word>
 
-			<word meaning="postage stamp,stamp" w="切手" reading="きって">
-			<word meaning="postcard" w="はがき">
-			<word meaning="envelope" w="封筒" reading="ふうとう">
+			<word meaning="postage stamp,stamp" w="切手" reading="きって"></word>
+			<word meaning="postcard" w="はがき"></word>
+			<word meaning="envelope" w="封筒" reading="ふうとう"></word>
 
-			<word meaning="parents" w="両親" reading="りょうしん">
-			<word meaning="siblings,brothers and sisters" w="兄弟" reading="きょうだい">
-			<word meaning="my elder brother" w="兄" reading="あに">
-			<word meaning="elder brother" w="お兄さん" reading="おにいさん">
-			<word meaning="my elder sister" w="姉" reading="あね">
-			<word meaning="elder sister" w="お姉さん" reading="おねえさん">
-			<word meaning="my younger brother" w="弟" reading="おとうと">
-			<word meaning="younger brother" w="弟さん" reading="おとうとさん">
-			<word meaning="my younger sister" w="妹" reading="いもうと">
-			<word meaning="younger sister" w="妹さん" reading="いもうとさん">
+			<word meaning="parents" w="両親" reading="りょうしん"></word>
+			<word meaning="siblings,brothers and sisters" w="兄弟" reading="きょうだい"></word>
+			<word meaning="my elder brother" w="兄" reading="あに"></word>
+			<word meaning="elder brother" w="お兄さん" reading="おにいさん"></word>
+			<word meaning="my elder sister" w="姉" reading="あね"></word>
+			<word meaning="elder sister" w="お姉さん" reading="おねえさん"></word>
+			<word meaning="my younger brother" w="弟" reading="おとうと"></word>
+			<word meaning="younger brother" w="弟さん" reading="おとうとさん"></word>
+			<word meaning="my younger sister" w="妹" reading="いもうと"></word>
+			<word meaning="younger sister" w="妹さん" reading="いもうとさん"></word>
 
-			<word meaning="foreign country" w="外国" reading="がいこく">
+			<word meaning="foreign country" w="外国" reading="がいこく"></word>
 
-			<word meaning="foreign student" w="留学生" reading="りゅうがくせい">
-			<word meaning="class" w="クラス">
+			<word meaning="foreign student" w="留学生" reading="りゅうがくせい"></word>
+			<word meaning="class" w="クラス"></word>
 
-			<word meaning="hours" w="時間" reading="じかん">
-			<word meaning="weeks" w="週間" reading="しゅうかん">
-			<word meaning="months" w="か月" reading="かげつ">
-			<word meaning="years" w="年" reading="ねん">
-			<word meaning="about this much time,about" w="ぐらい">
-			<word meaning="how long" w="どのくらい">
+			<word meaning="hours" w="時間" reading="じかん"></word>
+			<word meaning="weeks" w="週間" reading="しゅうかん"></word>
+			<word meaning="months" w="か月" reading="かげつ"></word>
+			<word meaning="years" w="年" reading="ねん"></word>
+			<word meaning="about this much time,about" w="ぐらい"></word>
+			<word meaning="how long" w="どのくらい"></word>
 
-			<word meaning="in total" w="全部で" reading="ぜんぶで">
-			<word meaning="everyone" w="みんな">
-			<word meaning="only" w="だけ">
+			<word meaning="in total" w="全部で" reading="ぜんぶで"></word>
+			<word meaning="everyone" w="みんな"></word>
+			<word meaning="only" w="だけ"></word>
 
-			<word meaning="certainly" w="かしこまりました">
+			<word meaning="certainly" w="かしこまりました"></word>
 
-			<word meaning="are you going out" w="お出かけ　ですか" reading="おでかけ　ですか">
-			<word meaning="have a good day,see you" w="行ってらっしゃい" reading="いってらっしゃい">
-			<word meaning="im off,ill go and come back" w="行ってきます" reading="いってきます">
+			<word meaning="are you going out" w="お出かけ　ですか" reading="おでかけ　ですか"></word>
+			<word meaning="have a good day,see you" w="行ってらっしゃい" reading="いってらっしゃい"></word>
+			<word meaning="im off,ill go and come back" w="行ってきます" reading="いってきます"></word>
 			
-			<word meaning="sea mail" w="船便" reading="ふなびん">
-			<word meaning="airmail" w="航空便" reading="こうくうびん">
-			<word meaning="please" w="お願いします" reading="おねがいします">
+			<word meaning="sea mail" w="船便" reading="ふなびん"></word>
+			<word meaning="airmail" w="航空便" reading="こうくうびん"></word>
+			<word meaning="please" w="お願いします" reading="おねがいします"></word>
 			
-			<word meaning="australia" w="オーストラリア">
+			<word meaning="australia" w="オーストラリア"></word>
 		</vocabulary>
 	</lesson>
 </data>
