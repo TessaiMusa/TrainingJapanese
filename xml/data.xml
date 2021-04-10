@@ -666,4 +666,81 @@
 
 		</vocabulary>
 	</lesson>
+	<lesson name="これ、お願いします">
+		<vocabulary>
+			<word meaning="to have a child" w="子どもが　います" reading="こどもが　います">
+			<word meaning="to stay,to be" w="日本に　います" reading="にほんに　います">
+			<word meaning="to take a resource" w="かかる">
+			<word meaning="to take leave from work" w="会社を　休みます" reading="かいしゃを　やすみます">
+
+			<word meaning="one thing" w="一つ" reading="ひとつ">
+			<word meaning="two things" w="二つ" reading="ふたつ">
+			<word meaning="three things" w="三つ" reading="みっつ">
+			<word meaning="four things" w="四つ" reading="よっつ">
+			<word meaning="five things" w="五つ" reading="いつつ">
+			<word meaning="six things" w="六つ" reading="むっつ">
+			<word meaning="seven things" w="七つ" reading="ななつ">
+			<word meaning="eight things" w="八つ" reading="やっつ">
+			<word meaning="nine things" w="九つ" reading="ここのつ">
+			<word meaning="ten things" w="とお">
+			<word meaning="how many things" w="いくつ">
+
+			<word meaning="one person" w="一人" reading="ひとり">
+			<word meaning="two people" w="二人" reading="ふたり">
+			<word meaning="people" w="人" reading="にん">
+
+			<word meaning="counter machines and cars" w="台" reading="だい">
+			<word meaning="counter for paper and stamps" w="枚" reading="まい">
+			<word meaning="times" w="回" reading="かい">
+
+			<word meaning="apple" w="りんご">
+			<word meaning="orange,mandarin orange" w="みかん">
+			<word meaning="sandwitch" w="サンドイッチ">
+			<word meaning="curry with rice" w="カリーライス">
+			<word meaning="ice cream" w="アイスクリーム">
+
+			<word meaning="postage stamp,stamp" w="切手" reading="きって">
+			<word meaning="postcard" w="はがき">
+			<word meaning="envelope" w="封筒" reading="ふうとう">
+
+			<word meaning="parents" w="両親" reading="りょうしん">
+			<word meaning="siblings,brothers and sisters" w="兄弟" reading="きょうだい">
+			<word meaning="my elder brother" w="兄" reading="あに">
+			<word meaning="elder brother" w="お兄さん" reading="おにいさん">
+			<word meaning="my elder sister" w="姉" reading="あね">
+			<word meaning="elder sister" w="お姉さん" reading="おねえさん">
+			<word meaning="my younger brother" w="弟" reading="おとうと">
+			<word meaning="younger brother" w="弟さん" reading="おとうとさん">
+			<word meaning="my younger sister" w="妹" reading="いもうと">
+			<word meaning="younger sister" w="妹さん" reading="いもうとさん">
+
+			<word meaning="foreign country" w="外国" reading="がいこく">
+
+			<word meaning="foreign student" w="留学生" reading="りゅうがくせい">
+			<word meaning="class" w="クラス">
+
+			<word meaning="hours" w="時間" reading="じかん">
+			<word meaning="weeks" w="週間" reading="しゅうかん">
+			<word meaning="months" w="か月" reading="かげつ">
+			<word meaning="years" w="年" reading="ねん">
+			<word meaning="about this much time,about" w="ぐらい">
+			<word meaning="how long" w="どのくらい">
+
+			<word meaning="in total" w="全部で" reading="ぜんぶで">
+			<word meaning="everyone" w="みんな">
+			<word meaning="only" w="だけ">
+
+			<word meaning="certainly" w="かしこまりました">
+
+			<word meaning="are you going out" w="お出かけ　ですか" reading="おでかけ　ですか">
+			<word meaning="have a good day,see you" w="行ってらっしゃい" reading="いってらっしゃい">
+			<word meaning="im off,ill go and come back" w="行ってきます" reading="いってきます">
+			
+			<word meaning="sea mail" w="船便" reading="ふなびん">
+			<word meaning="airmail" w="航空便" reading="こうくうびん">
+			<word meaning="please" w="お願いします" reading="おねがいします">
+			
+			<word meaning="australia" w="オーストラリア">
+		</vocabulary>
+	</lesson>
 </data>
