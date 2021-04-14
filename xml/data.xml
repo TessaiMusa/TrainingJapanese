@@ -256,9 +256,9 @@
 	</lesson>
 	<lesson name="この　電車は　甲子園へ　行きますか">
 		<vocabulary>
-			<word meaning="to go" w="行きます" reading="いきます"></word>
-			<word meaning="to come" w="来ます" reading="きます"></word>
-			<word meaning="to return,to go home" w="帰ります" reading="かえります"></word>
+			<word meaning="to go" w="行く" reading="いく"></word>
+			<word meaning="to come" w="来る" reading="来る"></word>
+			<word meaning="to return,to go home" w="帰る" reading="かえる"></word>
 
 			<word meaning="school" w="学校" reading="がっこう"></word>
 			<word meaning="supermarket" w="スーパー"></word>
@@ -330,20 +330,20 @@
 
 	<lesson name="いっしょに　行きましょうか">
 		<vocabulary>
-			<word meaning="to eat" w="食べます" reading="たべます"></word>
-			<word meaning="to drink" w="飲みます" reading="のみます"></word>
-			<word meaning="to smoke" w="吸います" reading="すいます"></word>
+			<word meaning="to eat" w="食べる" reading="たべる"></word>
+			<word meaning="to drink" w="飲む" reading="のむ"></word>
+			<word meaning="to smoke" w="吸う" reading="すう"></word>
 			<word meaning="smoke cigarette,smoke tobacco" w="たばこを吸います" reading="たばこをすいます"></word>
-			<word meaning="to see,to look,to watch" w="見ます" reading="みます"></word>
-			<word meaning="to hear,to listen" w="聞きます" reading="ききます"></word>
-			<word meaning="to read" w="読みます" reading="よみます"></word>
-			<word meaning="to write,to draw,to paint" w="書きます" reading="かきます"></word>
+			<word meaning="to see,to look,to watch" w="見る" reading="みる"></word>
+			<word meaning="to hear,to listen" w="聞く" reading="きく"></word>
+			<word meaning="to read" w="読む" reading="よむ"></word>
+			<word meaning="to write,to draw,to paint" w="書く" reading="かく"></word>
 
-			<word meaning="to buy" w="買います" reading="かいます"></word>
-			<word meaning="to take" w="撮ります" reading="とります"></word>
+			<word meaning="to buy" w="買う" reading="かう"></word>
+			<word meaning="to take,to record" w="撮る" reading="とる"></word>
 			<word meaning="to take photo,take a photo, take a photograph" w="写真を撮ります" reading="しゃしんをとります"></word>
-			<word meaning="to do,to play" w="します"></word>
-			<word meaning="to meet" w="会います" reading="あいます"></word>
+			<word meaning="to do,to play" w="する"></word>
+			<word meaning="to meet,to encounter" w="会う" reading="あう"></word>
 			<word meaning="meet friend,meet a friend" w="友達に会います" reading="ともだちにあいます"></word>
 			
 			<word meaning="meal,cooked rice" w="ごはん"></word>
@@ -398,15 +398,15 @@
 	</lesson>
 	<lesson name="いらっしゃい">
 		<vocabulary>
-			<word meaning="to cut,to slice" w="切ります" reading="きります"></word>
-			<word meaning="to send" w="送ります" reading="おくります"></word>
-			<word meaning="to give" w="あげます"></word>
-			<word meaning="to receive" w="もらいます"></word>
-			<word meaning="to lend" w="貸します" reading="かします"></word>
-			<word meaning="to borrow" w="借ります" reading="かります"></word>
-			<word meaning="to teach" w="教えます" reading="おしえます"></word>
-			<word meaning="to learn" w="習います" reading="ならいます"></word>
-			<word meaning="to make" w="かけます"></word>
+			<word meaning="to cut,to slice" w="切る" reading="切る"></word>
+			<word meaning="to send" w="送る" reading="おくる"></word>
+			<word meaning="to give" w="あげる"></word>
+			<word meaning="to receive" w="もらう"></word>
+			<word meaning="to lend" w="貸す" reading="かす"></word>
+			<word meaning="to borrow" w="借りる" reading="かりる"></word>
+			<word meaning="to teach" w="教える" reading="おしえる"></word>
+			<word meaning="to learn" w="習う" reading="ならう"></word>
+			<word meaning="to make" w="かける"></word>
 			<word meaning="to make call,to make a call,to make telephone call,to make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
 			
 			<word meaning="arm,hand" w="手" reading="て" voice="て"></word>
@@ -662,14 +662,14 @@
 			<word meaning="thank you" w="どうも　すみません"></word>
 			<word meaning="nam pla" w="ナンプラー"></word>
 			<word meaning="corner,section" w="コーナー"></word>
-			<word meaning="the bottom" w="いちばん　した"></word>
+			<word meaning="the bottom" w="いちばん　下" reading="いちばん　した"></word>
 
 		</vocabulary>
 	</lesson>
 	<lesson name="これ、お願いします">
 		<vocabulary>
 			<word meaning="to have a child" w="子どもが　います" reading="こどもが　います"></word>
-			<word meaning="to stay,to be" w="日本に　います" reading="にほんに　います"></word>
+			<word meaning="to stay in japan,to be in japan" w="日本に　います" reading="にほんに　います"></word>
 			<word meaning="to take a resource" w="かかる"></word>
 			<word meaning="to take leave from work" w="会社を　休みます" reading="かいしゃを　やすみます"></word>
 
@@ -741,6 +741,76 @@
 			<word meaning="please" w="お願いします" reading="おねがいします"></word>
 			
 			<word meaning="australia" w="オーストラリア"></word>
+		</vocabulary>
+	</lesson>
+	<lesson name="祇園祭は　どうですか">
+		<vocabulary>
+			<word meaning="easy,simple" w="寒暖な" reading="かんだんな"></word>
+
+			<word meaning="near" w="近い" reading="ちかい"></word>
+			<word meaning="far" w="遠い" reading="遠い"></word>
+			<word meaning="fast,early" w="早い" reading="はやい"></word>
+			<word meaning="slow,late" w="遅い" reading="おそい"></word>
+			<word meaning="many,much" w="多い" reading="おおい"></word>
+			<word meaning="many people" w="人が　多い" reading="ひとが　おおい"></word>
+			<word meaning="few,little" w="少ない" reading="すくない"></word>
+			<word meaning="few people" w="人が　少ない" reading="ひとが　すくない"></word>
+
+			<word meaning="warm" w="温かい" reading="あたたかい"></word>
+			<word meaning="cool" w="涼しい" reading="すずしい"></word>
+			<word meaning="sweet" w="甘い" reading="あまい"></word>
+			<word meaning="hot taste,spicy" w="辛い" reading="からい"></word>
+			<word meaning="heavy" w="重い" reading="おもい"></word>
+			<word meaning="light" w="軽い" reading="かるい"></word>
+			<word meaning="prefer" w="いい"></word>
+
+			<word meaning="season" w="季節" reading="きせつ"></word>
+			<word meaning="spring" w="春" reading="はる"></word>
+			<word meaning="summer" w="夏" reading="なつ"></word>
+			<word meaning="autumn,fall" w="秋" reading="あき"></word>
+			<word meaning="winter" w="冬" reading="ふゆ"></word>
+
+			<word meaning="weather" w="天気" reading="てんき"></word>
+			<word meaning="rainy,rain" w="雨" reading="あめ"></word>
+			<word meaning="snow,snowy" w="雪" reading="ゆき"></word>
+			<word meaning="cloudy" w="曇り" reading="くもり"></word>
+
+			<word meaning="hotel" w="ホテル"></word>
+			<word meaning="airport" w="空港" reading="くうこう"></word>
+			<word meaning="sea,ocean" w="海" reading="うみ"></word>
+
+			<word meaning="world" w="世界" reading="せかい"></word>
+
+			<word meaning="party" w="パーティー"></word>
+			<word meaning="festival" w="お祭り" reading="おまつり" polite="polite"></word>
+
+			<word meaning="sukiyaki" w="すき焼き" reading="すきやき"></word>
+			<word meaning="sashimi" w="刺身" reading="さしみ"></word>
+			<word meaning="sushi" w="おすし" polite="polite"></word>
+			<word meaning="tempura" w="てんぷら"></word>
+
+			<word meaning="pork" w="豚肉" reading="ぶたにく"></word>
+			<word meaning="chiken" w="とり肉" reading="とりにく"></word>
+			<word meaning="beef" w="牛肉" reading="ぎゅうにく"></word>
+
+			<word meaning="lemon" w="レモン"></word>
+
+			<word meaning="flower arrangement" w="生け花" reading="いけばな"></word>
+
+			<word meaning="maple,autumn leaves,fall leaves" w="紅葉" reading="もみじ"></word>
+
+			<word meaning="most" w="いちばん"></word>
+			<word meaning="by far" w="ずっと"></word>
+			<word meaning="for the first time" w="初めて" reading="はじめて"></word>
+
+			<word meaning="im home" w="ただいま"></word>
+			<word meaning="welcome home" w="お帰りなさい" reading="おかえりなさい"></word>
+			<word meaning="to be tired" w="疲れました" reading="つかれました"></word>
+
+			<word meaning="gion festival" w="祇園祭" reading="ぎおんまつり"></word>
+
+			<word meaning="hong kong" w="ホンコン"></word>
+			<word meaning="singapore" w="シンガポール"></word>
 		</vocabulary>
 	</lesson>
 </data>
