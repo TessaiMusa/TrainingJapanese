@@ -257,7 +257,7 @@
 	<lesson name="この　電車は　甲子園へ　行きますか">
 		<vocabulary>
 			<word meaning="to go" w="行く" reading="いく"></word>
-			<word meaning="to come" w="来る" reading="来る"></word>
+			<word meaning="to come back" w="来る" reading="くる"></word>
 			<word meaning="to return,to go home" w="帰る" reading="かえる"></word>
 
 			<word meaning="school" w="学校" reading="がっこう"></word>
