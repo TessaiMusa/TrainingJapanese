@@ -14,7 +14,7 @@
 			<word meaning="employee" w="社員" reading="しゃいん"></word>
 			<word meaning="bank employee" w="銀行員" reading="ぎんこういん"></word>
 			<word meaning="doctor" w="医者" reading="いしゃ"></word>
-			<word meaning="researcher,scholar" w="研究者" reading="けんきゅしゃ"></word>
+			<word meaning="researcher,scholar" w="研究者" reading="けんきゅうしゃ"></word>
 			
 			<word meaning="university" w="大学" reading="だいがく"></word>
 			<word meaning="hospital" w="病院" reading="びょういん"></word>
@@ -28,10 +28,7 @@
 			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'"></word>
 			<word meaning="no" w="いいえ"></word>
 			
-			<word meaning="how do you do" w="初めまして" reading="はじめまして" notes="Usually used as the first phase when introducing oneself"></word>
-			<word meaning="pleased to meet you" w="よろしく" notes="Used as part of self introduction (less polite)"></word>
 			<word meaning="come from" w="から来ました" reading="からきました"></word>
-			<word meaning="pleased to meet you" w="どうぞ　よろしく　お願いします" reading="どうぞ　よろしく　おねがいします" polite="polite" notes="[どうぞ]　よろしく　[お願いします]\nLit: I am meeting you for the first time"></word>
 			<word meaning="excuse me but" w="失礼しますが" reading="しつれいしますが" notes="used when asking someone for personal information"></word>
 			<word meaning="your name" w="お名前は" reading="おなまえは" polite="polite" notes="May I ask your name?"></word>
 			
@@ -91,11 +88,8 @@
 
 			<word meaning="what" w="何" reading="なに"></word>
 
-			<word meaning="thank you" w="ありがとう"></word>
-			<word meaning="thank you very much" w="どうも　ありがとう　ございます" polite="polite"></word>
-
-			<word meaning="i see" w="そうですか"></word>
-			<word meaning="no it isnt,you are wrong" w="違う" reading="ちがう"></word>
+			<word meaning="i see...,i see" w="そうですか"></word>
+			<word meaning="to be wrong,no it isnt,you are wrong" w="違う" reading="ちがう"></word>
 
 			<word meaning="thank you in advance for your kindness" w="これから　お世話に　なります" reading="これから　おせわに　なります" polite="polite"></word>
 			<word meaning="pleased to meet you too" w="こちらこそ　どうぞ　よろしく　おねがいします" reading="こちらこそ　どうぞ　よろしく　おねがいします" polite="polite"></word>
