@@ -284,9 +284,7 @@
 			<word meaning="this year" w="ことし"></word>
 			<word meaning="next year" w="来年" reading="らいねん"></word>
 
-			<word meaning="year" w="年" reading="ねん"></word>
 			<word meaning="what year" w="何年" reading="なんねん"></word>
-			<word meaning="month" w="月" reading="げつ" voice="げつ"></word>
 			<word meaning="what month" w="何月" reading="なんげつ"></word>
 
 			<word meaning="first day,1st day" w="1日" reading="ついたち" voice="ついたち"></word>
@@ -715,7 +713,6 @@
 			<word meaning="hours" w="時間" reading="じかん"></word>
 			<word meaning="weeks" w="週間" reading="しゅうかん"></word>
 			<word meaning="months" w="か月" reading="かげつ"></word>
-			<word meaning="years" w="年" reading="ねん"></word>
 			<word meaning="about this much time,about" w="ぐらい"></word>
 			<word meaning="how long" w="どのくらい"></word>
 
