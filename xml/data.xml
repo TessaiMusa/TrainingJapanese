@@ -162,7 +162,6 @@
 			<word meaning="excuse me" w="すみません"></word>
 			<word meaning="thanks" w="どうも"></word>
 
-			<word meaning="welcome" w="いらっしゃいます" polite="polite"></word>
 			<word meaning="show me" w="見せて　ください" reading="みせて　ください" polite="polite"></word>
 			<word meaning="well,then,in that case" w="じゃ"></word>
 			<word meaning="please give me" w="ください" polite="polite"></word>
@@ -270,7 +269,6 @@
 			<word meaning="he,boyfriend" w="彼" reading="かれ"></word>
 			<word meaning="she,girlfriend" w="彼女" reading="かのじょ"></word>
 			<word meaning="family" w="家族" reading="かぞく"></word>
-			<word meaning="alone,by oneself,one person,1 person" w="一人" reading="ひとり"></word>
 
 			<word meaning="last week" w="先週" reading="せんしゅう"></word>
 			<word meaning="this week" w="今週" reading="こんしゅう"></word>
@@ -375,7 +373,6 @@
 			<word meaning="always" w="いつも"></word>
 			<word meaning="sometimes" w="時々" reading="ときどき"></word>
 			<word meaning="after that,and then" w="それから"></word>
-			<word meaning="yes" w="ええ"></word>
 			
 			<word meaning="thats good isnt it" w="いいですね"></word>
 			<word meaning="understood,i understand" w="わかりました"></word>
@@ -435,7 +432,7 @@
 			<word meaning="not yet" w="まだ"></word>
 			<word meaning="from now on,soon,from this" w="これから"></word>
 			
-			<word meaning="it is nice isnt it,its nice isnt it" w="すできですね"></word>
+			<word meaning="it is nice isnt it,its nice isnt it" w="すてきですね"></word>
 
 			<word meaning="welcome" w="いらっしゃい"></word>
 			<word meaning="please come in,do come in,come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
@@ -505,10 +502,8 @@
 			<word meaning="not so" w="あまり"></word>
 			
 			<word meaning="and" w="そして"></word>
-			<word meaning="but" w="が"></word>
 
 			<word meaning="how are you,how is your health" w="お元気ですか" reading="おげんきですか" polite="polite"></word>
-			<word meaning="let me see" w="そうですね"></word>
 
 			<word meaning="wont you have another cup" w="もう　一杯　いかがですか" reading="もう　いっぱい　いかがですか"></word>
 			<word meaning="no thank you" w="いいえ、けっこうです"></word>
@@ -586,7 +581,7 @@
 
 			<word meaning="oh" w="ああ"></word>
 			<word meaning="wont you join us" w="いっしょに　いかがですか"></word>
-			<word meaning="so you cant come" w="だめですか"></word>
+			<word meaning="cannot" w="だめです"></word>
 			<word meaning="please ask me someother time" w="また　今度　お願いします" reading="また　こんど　おねがいします"></word>
 
 		</vocabulary>
@@ -594,8 +589,8 @@
 
 	<lesson name="ナンプラー、ありますか">
 		<vocabulary>
-			<word meaning="exist - inanimate,to be" w="ある"></word>
-			<word meaning="exist - animate,to be" w="いる"></word>
+			<word meaning="exist - inanimate,to be,exist" w="ある"></word>
+			<word meaning="exist - animate,to be,exist" w="いる"></word>
 
 			<word meaning="various" w="いろいろな"></word>
 
