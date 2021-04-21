@@ -74,7 +74,7 @@
 			<word meaning="radio" w="ラジオ"></word>
 			<word meaning="camera" w="カメラ"></word>
 			<word meaning="computer" w="コンピューター"></word>
-			<word meaning="car,vehicle" w="車" reading="くるま"></word>
+			<word meaning="car,vehicle" w="車" voice="くるま" reading="くるま"></word>
 			
 			<word meaning="desk,table" w="机" reading="つくえ"></word>
 			<word meaning="chair" w="いす"></word>
@@ -514,7 +514,7 @@
 			<word meaning="the golden pavilion" w="金閣寺" reading="きんかくじ"></word>
 			<word meaning="nara park" w="奈良公園" reading="ならこうえん"></word>
 			<word meaning="mt fuji" w="ふじさん"></word>
-			<word meaning="seven samurai" w="七人の　侍" reading="しちにんの　さむらい"></word>
+			<word meaning="seven samurai" w="七人の　侍" voice="しちにんのさむらい" reading="しちにんの　さむらい"></word>
 		</vocabulary>
 	</lesson>
 	<lesson name="残念です">
