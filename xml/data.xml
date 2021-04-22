@@ -192,7 +192,7 @@
 			<word meaning="now" w="今" reading="いま"></word>
 			<word meaning="half" w="半" reading="はん"></word>
 			<word meaning="what time" w="何時" reading="なんじ"></word>
-			<word meaning="what minute" w="何分" reading="なんぷん"></word>
+			<word meaning="what minute" w="何分" reading="なんぷん" voice="なんぶん"></word>
 			
 			<word meaning="a.m" w="午前" reading="ごぜん"></word>
 			<word meaning="p.m" w="午後" reading="ごご"></word>
@@ -236,7 +236,7 @@
 			<word meaning="thats tough isnt it,its tough isnt it" w="大変ですね" reading="たいへんですね" notes="used when exressing sympathy"></word>
 			
 			<word meaning="number" w="番号" reading="ばんごう"></word>
-			<word meaning="what number" w="何番" reading="なんばん"></word>
+			<word meaning="what number" w="何番"　reading="なんばん"></word>
 
 			<word meaning="new york" w="ニューヨーク"></word>
 			<word meaning="beijing" w="北京" reading="ペキン"></word>
