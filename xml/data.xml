@@ -25,7 +25,7 @@
 			<word meaning="years old,age" w="歳" reading="さい" voice="さい" notes="I am 5 years old \n私は五歳です"></word>
 			<word meaning="how old,what age" w="何歳" reading="なんさい" notes="How old are you?\n何歳ですか。"></word>
 			
-			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes, I follow'"></word>
+			<word meaning="yes" w="はい" notes="sometimes it could be intrepretted as 'yes,I follow'"></word>
 			<word meaning="no" w="いいえ"></word>
 			
 			<word meaning="come from" w="から来ました" reading="からきました"></word>
@@ -328,7 +328,7 @@
 
 			<word meaning="to buy" w="買う" reading="かう"></word>
 			<word meaning="to take,to record" w="撮る" reading="とる"></word>
-			<word meaning="to take photo,take a photo, take a photograph,to take a photo" w="写真を撮ります" reading="しゃしんをとります"></word>
+			<word meaning="to take photo,take a photo,take a photograph,to take a photo" w="写真を撮ります" reading="しゃしんをとります"></word>
 			<word meaning="to do,to play" w="する"></word>
 			<word meaning="to meet,to encounter" w="会う" reading="あう"></word>
 			<word meaning="meet friend,meet a friend" w="友達に会います" reading="ともだちにあいます"></word>
@@ -341,7 +341,7 @@
 			<word meaning="bread,bun" w="バン"></word>
 			<word meaning="egg" w="卵" reading="たまご"></word>
 			<word meaning="meat" w="肉" reading="にく"></word>
-			<word meaning="fish" w="魚" reading="さかな"></word>
+			<word meaning="fish" w="魚" reading="さかな" voice="さかな"></word>
 			<word meaning="vegetable,vegetables" w="野菜" reading="やさい"></word>
 			<word meaning="fruit,fruits" w="果物" reading="くだもの"></word>
 			
@@ -360,7 +360,7 @@
 			<word meaning="photograph,photo" w="写真" reading="しゃしん"></word>
 			<word meaning="video" w="ビデオ"></word>
 
-			<word meaning="shop,store" w="店" reading="みせ"></word>
+			<word meaning="shop,store" w="店" reading="みせ" voice="みせ"></word>
 			<word meaning="garden" w="鶏" reading="にわ" voice="にわ"></word>
 
 			<word meaning="homework" w="宿題" reading="しゅくだい"></word>
@@ -396,7 +396,7 @@
 			<word meaning="to make call,to make a call,to make telephone call,to make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
 			
 			<word meaning="arm,hand" w="手" reading="て" voice="て"></word>
-			<word meaning="chopsticks" w="はし"></word>
+			<word meaning="chopsticks" w="はし" voice="箸"></word>
 			<word meaning="spoon" w="スプーン"></word>
 			<word meaning="knife" w="ナイフ"></word>
 			<word meaning="fork" w="フォーク"></word>
@@ -408,7 +408,7 @@
 			<word meaning="mail" w="メール"></word>
 			<word meaning="new year greeting card" w="年賀状" reading="ねんがじょう"></word>
 			
-			<word meaning="punch hole, punch" w="パンチ"></word>
+			<word meaning="punch hole,punch" w="パンチ"></word>
 			<word meaning="stapler" w="ホッチキス"></word>
 			<word meaning="sellotape,scotch tape" w="セロテープ"></word>
 			<word meaning="rubber,eraser" w="消しゴム" reading="けしゴム"></word>
@@ -436,7 +436,7 @@
 
 			<word meaning="welcome" w="いらっしゃい"></word>
 			<word meaning="please come in,do come in,come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
-			<word meaning="may i,excuese me" w="失礼します" reading="しつれいします"></word>
+			<word meaning="may i,excuse me" w="失礼します" reading="しつれいします"></word>
 			<word meaning="would you like to have it" w="いかがですか"></word>
 			<word meaning="lets eat" w="いただきます"></word>
 			<word meaning="that was delicious,it was delicious" w="ごしそうさまでした"></word>
@@ -505,7 +505,7 @@
 
 			<word meaning="how are you,how is your health" w="お元気ですか" reading="おげんきですか" polite="polite"></word>
 
-			<word meaning="wont you have another cup" w="もう　一杯　いかがですか" reading="もう　いっぱい　いかがですか"></word>
+			<word meaning="wont you have another cup,would you like to have another cup" w="もう　一杯　いかがですか" reading="もう　いっぱい　いかがですか"></word>
 			<word meaning="no thank you" w="いいえ、けっこうです"></word>
 			<word meaning="its time i was going" w="そろそろ　失礼します" reading="そろそろ　しつれいします"></word>
 			<word meaning="please come again" w="まだ　いらしゃって　ください"></word>
