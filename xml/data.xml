@@ -211,7 +211,7 @@
 			<word meaning="this morning" w="けさ"></word>
 			<word meaning="tonight,this evening" w="今晩" reading="こんばん"></word>
 			
-			<word meaning="lunchtime,lunchbreak" w="昼休み" reading="ひるやすみ"></word>
+			<word meaning="lunchtime,lunchbreak,lunch time" w="昼休み" reading="ひるやすみ"></word>
 			
 			<word meaning="exam,test" w="試験" reading="しけん"></word>
 			<word meaning="meeting,conference" w="会議" reading="かいぎ"></word>
@@ -328,7 +328,7 @@
 
 			<word meaning="to buy" w="買う" reading="かう"></word>
 			<word meaning="to take,to record" w="撮る" reading="とる"></word>
-			<word meaning="to take photo,take a photo, take a photograph" w="写真を撮ります" reading="しゃしんをとります"></word>
+			<word meaning="to take photo,take a photo, take a photograph,to take a photo" w="写真を撮ります" reading="しゃしんをとります"></word>
 			<word meaning="to do,to play" w="する"></word>
 			<word meaning="to meet,to encounter" w="会う" reading="あう"></word>
 			<word meaning="meet friend,meet a friend" w="友達に会います" reading="ともだちにあいます"></word>
@@ -439,7 +439,7 @@
 			<word meaning="may i,excuese me" w="失礼します" reading="しつれいします"></word>
 			<word meaning="would you like to have it" w="いかがですか"></word>
 			<word meaning="lets eat" w="いただきます"></word>
-			<word meaning="that was delicious" w="ごしそうさまでした"></word>
+			<word meaning="that was delicious,it was delicious" w="ごしそうさまでした"></word>
 			
 			<word meaning="spain" w="スペイン"></word>
 		</vocabulary>
