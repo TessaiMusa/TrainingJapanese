@@ -162,7 +162,7 @@
 			<word meaning="excuse me" w="すみません"></word>
 			<word meaning="thanks" w="どうも"></word>
 
-			<word meaning="show me" w="見せて　ください" reading="みせて　ください" polite="polite"></word>
+			<word meaning="show me,please show me" w="見せて　ください" reading="みせて　ください" polite="polite"></word>
 			<word meaning="well,then,in that case" w="じゃ"></word>
 			<word meaning="please give me" w="ください" polite="polite"></word>
 
@@ -177,7 +177,7 @@
 	<lesson name="そちらは　何時までですか。">
 		<vocabulary>
 			<word meaning="to get up,to wake up" w="起きる" reading="おきる"></word>
-			<word meaning="to sleep,go to bed," w="寝る" reading="ねる"></word>
+			<word meaning="to sleep,go to bed" w="寝る" reading="ねる"></word>
 			<word meaning="to work" w="働く" reading="はたらく"></word>
 			<word meaning="to take rest,holiday,rest" w=" 休む" reading="やすむ"></word>
 			<word meaning="to study" w="勉強する" reading="べんきょうする"></word>
@@ -255,7 +255,7 @@
 			<word meaning="station" w="駅" reading="えき"></word>
 
 			<word meaning="aeroplane,plane" w="飛行機" reading="ひこうき"></word>
-			<word meaning="ship" w="船" reading="ふね"></word>
+			<word meaning="ship" w="船" reading="ふね" voice="ふね"></word>
 			<word meaning="electric train" w="電車" reading="でんしゃ"></word>
 			<word meaning="underground,subway" w="地下鉄" reading="ちかてつ"></word>
 			<word meaning="shinkansen,bullet train" w="新幹線" reading="しんかんせん"></word>
