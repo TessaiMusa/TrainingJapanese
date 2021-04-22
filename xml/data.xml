@@ -342,8 +342,8 @@
 			<word meaning="egg" w="卵" reading="たまご"></word>
 			<word meaning="meat" w="肉" reading="にく"></word>
 			<word meaning="fish" w="魚" reading="さかな"></word>
-			<word meaning="vegetable" w="野菜" reading="やさい"></word>
-			<word meaning="fruit" w="果物" reading="くだもの"></word>
+			<word meaning="vegetable,vegetables" w="野菜" reading="やさい"></word>
+			<word meaning="fruit,fruits" w="果物" reading="くだもの"></word>
 			
 			<word meaning="water" w="水" reading="みず"></word>
 			<word meaning="tea,green tea" w="お茶" reading="おちゃ" polite="polite"></word>
