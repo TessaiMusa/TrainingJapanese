@@ -162,7 +162,7 @@
 			<word meaning="excuse me" w="すみません"></word>
 			<word meaning="thanks" w="どうも"></word>
 
-			<word meaning="show me,please show me" w="見せて　ください" reading="みせて　ください" polite="polite"></word>
+			<word meaning="show me,please show me" w="見せてください" reading="みせてください" polite="polite"></word>
 			<word meaning="well,then,in that case" w="じゃ"></word>
 			<word meaning="please give me" w="ください" polite="polite"></word>
 
@@ -377,7 +377,7 @@
 			<word meaning="thats good isnt it" w="いいですね"></word>
 			<word meaning="understood,i understand" w="わかりました"></word>
 
-			<word meaning="well see you tomorrow,see you tommorrow" w="じゃ　またあした" voice="じゃ、また　あした"></word>
+			<word meaning="well see you tomorrow,see you tommorrow" w="じゃ、またあした" voice="じゃ、またあした"></word>
 			<word meaning="mexico" w="メキシコ"></word>
 			
 		</vocabulary>
@@ -435,7 +435,7 @@
 			<word meaning="it is nice isnt it,its nice isnt it" w="すてきですね"></word>
 
 			<word meaning="welcome" w="いらっしゃい"></word>
-			<word meaning="please come in,do come in,come in" w="どうぞ　お上がり　ください" reading="どうぞ　おあがり　ください"></word>
+			<word meaning="please come in,do come in,come in" w="どうぞ　お上がりください" reading="どうぞ　おあがりください"></word>
 			<word meaning="may i,excuse me" w="失礼します" reading="しつれいします"></word>
 			<word meaning="would you like to have it" w="いかがですか"></word>
 			<word meaning="lets eat" w="いただきます"></word>
@@ -505,16 +505,16 @@
 
 			<word meaning="how are you,how is your health" w="お元気ですか" reading="おげんきですか" polite="polite"></word>
 
-			<word meaning="wont you have another cup,would you like to have another cup" w="もう　一杯　いかがですか" reading="もう　いっぱい　いかがですか"></word>
+			<word meaning="wont you have another cup,would you like to have another cup" w="もう　一杯いかがですか" reading="もう　いっぱいいかがですか"></word>
 			<word meaning="no thank you" w="いいえ、けっこうです"></word>
 			<word meaning="its time i was going" w="そろそろ　失礼します" reading="そろそろ　しつれいします"></word>
-			<word meaning="please come again" w="まだ　いらしゃって　ください"></word>
+			<word meaning="please come again" w="まだ　いらしゃってください"></word>
 
 			<word meaning="shanghai" w="シャンハイ"></word>
 			<word meaning="the golden pavilion" w="金閣寺" reading="きんかくじ"></word>
 			<word meaning="nara park" w="奈良公園" reading="ならこうえん"></word>
 			<word meaning="mt fuji" w="ふじさん"></word>
-			<word meaning="seven samurai" w="七人の　侍" voice="しちにんのさむらい" reading="しちにんの　さむらい"></word>
+			<word meaning="seven samurai" w="七人の侍" voice="しちにんのさむらい" reading="しちにんのさむらい"></word>
 		</vocabulary>
 	</lesson>
 	<lesson name="残念です">
@@ -594,10 +594,10 @@
 
 			<word meaning="various" w="いろいろな"></word>
 
-			<word meaning="man" w="男の　人" reading="おとこの　ひと"></word>
-			<word meaning="woman" w="女の　人" reading="おんなの　ひと"></word>
-			<word meaning="boy" w="男の　子" reading="おとこの　こ"></word>
-			<word meaning="girl" w="女の　子" reading="おんなの　こ"></word>
+			<word meaning="man" w="男の人" reading="おとこのひと"></word>
+			<word meaning="woman" w="女の人" reading="おんなのひと"></word>
+			<word meaning="boy" w="男の子" reading="おとこのこ"></word>
+			<word meaning="girl" w="女の子" reading="おんなのこ"></word>
 
 			<word meaning="dog" w="犬" reading="いぬ"></word>
 			<word meaning="cat" w="猫" reading="ねこ"></word>
@@ -646,7 +646,7 @@
 			<word meaning="thank you" w="どうも　すみません"></word>
 			<word meaning="nam pla" w="ナンプラー"></word>
 			<word meaning="corner,section" w="コーナー"></word>
-			<word meaning="the bottom" w="いちばん　下" reading="いちばん　した"></word>
+			<word meaning="the bottom" w="いちばん下" reading="いちばんした"></word>
 
 		</vocabulary>
 	</lesson>
