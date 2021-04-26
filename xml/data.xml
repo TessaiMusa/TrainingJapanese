@@ -91,10 +91,10 @@
 			<word meaning="is that so" w="そうですか"></word>
 			<word meaning="to be wrong,no it isnt,you are wrong" w="違う" reading="ちがう"></word>
 
-			<word meaning="thank you in advance for your kindness" w="これから　お世話に　なります" reading="これから　おせわに　なります" polite="polite"></word>
+			<word meaning="thank you in advance for your kindness" w="これからお世話になります" reading="これからおせわになります" polite="polite"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="これを　ください">
+	<lesson name="これをください">
 		<vocabulary>
 			<word meaning="this place,here" w="ここ"></word>
 			<word meaning="that place,there" w="そこ" notes="near the listener"></word>
@@ -174,7 +174,7 @@
 			<word meaning="berlin" w="ベルリン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="そちらは　何時までですか。">
+	<lesson name="そちらは何時までですか。">
 		<vocabulary>
 			<word meaning="to get up,to wake up" w="起きる" reading="おきる"></word>
 			<word meaning="to sleep,go to bed" w="寝る" reading="ねる"></word>
@@ -244,7 +244,7 @@
 			<word meaning="london" w="ロンドン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="この　電車は　甲子園へ　行きますか">
+	<lesson name="この電車は甲子園へ行きますか">
 		<vocabulary>
 			<word meaning="to go" w="行く" reading="いく"></word>
 			<word meaning="to come back" w="来る" reading="くる"></word>
@@ -315,7 +315,7 @@
 		</vocabulary>
 	</lesson>
 
-	<lesson name="いっしょに　行きましょうか">
+	<lesson name="いっしょに行きましょうか">
 		<vocabulary>
 			<word meaning="to eat" w="食べる" reading="たべる"></word>
 			<word meaning="to drink" w="飲む" reading="のむ"></word>
@@ -435,7 +435,7 @@
 			<word meaning="it is nice isnt it,its nice isnt it" w="すてきですね"></word>
 
 			<word meaning="welcome" w="いらっしゃい"></word>
-			<word meaning="please come in,do come in,come in" w="どうぞ　お上がりください" reading="どうぞ　おあがりください"></word>
+			<word meaning="please come in,do come in,come in" w="どうぞお上がりください" reading="どうぞおあがりください"></word>
 			<word meaning="may i,excuse me" w="失礼します" reading="しつれいします"></word>
 			<word meaning="would you like to have it" w="いかがですか"></word>
 			<word meaning="lets eat" w="いただきます"></word>
@@ -444,7 +444,7 @@
 			<word meaning="spain" w="スペイン"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="そろそろ　失礼します">
+	<lesson name="そろそろ失礼します">
 		<vocabulary>
 			<word meaning="handsome" w="ハンサムな"></word>
 			<word meaning="beautiful,clean" w="きれいな"></word>
@@ -505,10 +505,10 @@
 
 			<word meaning="how are you,how is your health" w="お元気ですか" reading="おげんきですか" polite="polite"></word>
 
-			<word meaning="wont you have another cup,would you like to have another cup" w="もう　一杯いかがですか" reading="もう　いっぱいいかがですか"></word>
+			<word meaning="wont you have another cup,would you like to have another cup" w="もう、一杯いかがですか" reading="もう、いっぱいいかがですか"></word>
 			<word meaning="no thank you" w="いいえ、けっこうです"></word>
-			<word meaning="its time i was going" w="そろそろ　失礼します" reading="そろそろ　しつれいします"></word>
-			<word meaning="please come again" w="まだ　いらしゃってください"></word>
+			<word meaning="its time i was going" w="そろそろ失礼します" reading="そろそろしつれいします"></word>
+			<word meaning="please come again" w="まだいらしゃってください"></word>
 
 			<word meaning="shanghai" w="シャンハイ"></word>
 			<word meaning="the golden pavilion" w="金閣寺" reading="きんかくじ"></word>
@@ -550,7 +550,7 @@
 			<word meaning="katakana" w="かたかな"></word>
 			<word meaning="roman charcters,roman alphabet" w="ローマ字" reading="ローマじ"></word>
 
-			<word meaning="snall change,change" w="細かい　お金" reading="こまかい　おかね"></word>
+			<word meaning="snall change,change" w="細かいお金" reading="こまかいおかね"></word>
 			<word meaning="ticket" w="チケット"></word>
 
 			<word meaning="time" w="時間" reading="じかん"></word>
@@ -575,14 +575,14 @@
 			<word meaning="because" w="から"></word>
 			<word meaning="why" w="どうして"></word>
 
-			<word meaning="please lend it" w="貸して　ください" reading="かして　ください"></word>
+			<word meaning="please lend it" w="貸してください" reading="かしてください"></word>
 			<word meaning="sure,certainly" w="いいですよ"></word>
 			<word meaning="im sorry,unfortunately,regrettable" w="残念です" reading="ざんねんです"></word>
 
 			<word meaning="oh" w="ああ"></word>
-			<word meaning="wont you join us" w="いっしょに　いかがですか"></word>
+			<word meaning="wont you join us" w="いっしょにいかがですか"></word>
 			<word meaning="cannot" w="だめです"></word>
-			<word meaning="please ask me someother time" w="また　今度　お願いします" reading="また　こんど　おねがいします"></word>
+			<word meaning="please ask me someother time" w="また、今度お願いします" reading="また、こんどおねがいします"></word>
 
 		</vocabulary>
 	</lesson>
@@ -650,10 +650,10 @@
 	</lesson>
 	<lesson name="これ、お願いします">
 		<vocabulary>
-			<word meaning="to have a child" w="子どもが　います" reading="こどもが　います"></word>
-			<word meaning="to stay in japan,to be in japan" w="日本に　います" reading="にほんに　います"></word>
+			<word meaning="to have a child" w="子どもがいます" reading="こどもがいます"></word>
+			<word meaning="to stay in japan,to be in japan" w="日本にいます" reading="にほんにいます"></word>
 			<word meaning="to take a resource" w="かかる"></word>
-			<word meaning="to take leave from work" w="会社を　休みます" reading="かいしゃを　やすみます"></word>
+			<word meaning="to take leave from work" w="会社を休みます" reading="かいしゃをやすみます"></word>
 
 			<word meaning="one thing" w="一つ" reading="ひとつ"></word>
 			<word meaning="two things" w="二つ" reading="ふたつ"></word>
@@ -713,7 +713,7 @@
 
 			<word meaning="certainly" w="かしこまりました"></word>
 
-			<word meaning="are you going out" w="お出かけ　ですか" reading="おでかけ　ですか"></word>
+			<word meaning="are you going out" w="お出かけですか" reading="おでかけですか"></word>
 			<word meaning="have a good day,see you" w="行ってらっしゃい" reading="いってらっしゃい"></word>
 			<word meaning="im off,ill go and come back" w="行ってきます" reading="いってきます"></word>
 			
@@ -724,7 +724,7 @@
 			<word meaning="australia" w="オーストラリア"></word>
 		</vocabulary>
 	</lesson>
-	<lesson name="祇園祭は　どうですか">
+	<lesson name="祇園祭はどうですか">
 		<vocabulary>
 			<word meaning="easy,simple" w="寒暖な" reading="かんだんな"></word>
 
@@ -733,9 +733,9 @@
 			<word meaning="fast,early" w="早い" reading="はやい"></word>
 			<word meaning="slow,late" w="遅い" reading="おそい"></word>
 			<word meaning="many,much" w="多い" reading="おおい"></word>
-			<word meaning="many people" w="人が　多い" reading="ひとが　おおい"></word>
+			<word meaning="many people" w="人が多い" reading="ひとがおおい"></word>
 			<word meaning="few,little" w="少ない" reading="すくない"></word>
-			<word meaning="few people" w="人が　少ない" reading="ひとが　すくない"></word>
+			<word meaning="few people" w="人が少ない" reading="ひとがすくない"></word>
 
 			<word meaning="warm" w="温かい" reading="あたたかい"></word>
 			<word meaning="cool" w="涼しい" reading="すずしい"></word>
