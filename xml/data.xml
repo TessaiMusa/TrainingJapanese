@@ -794,4 +794,55 @@
 			<word meaning="singapore" w="シンガポール"></word>
 		</vocabulary>
 	</lesson>
+	<lesson name="別々に　お願いします">
+		<vocabulary>
+			<word meaning="to play,to enjoy ibesekf" w="遊ぶ" reading="あそぶ"></word>
+			<word meaning="to swim" w="泳ぐ" reading="およぐ"></word>
+			<word meaning="to go out to meet,to welcome,go to meet" w="迎える" reading="むかえる"></word>
+			<word meaning="to get tired" w="疲れる" reading="つかれる"></word>
+			
+			<word meaning="to get married,to marry" w="結婚する" reading="けっこんする"></word>
+			<word meaning="to shop,to do shopping" w="買い物する" reading="かいものする"></word>
+			<word meaning="to dine,to have meal" w="食事する" reading="しょくじする"></word>
+			<word meaning="to take a walk,to walk,to stroll" w="散歩する" reading="さんぽする"></word>
+			<word meaning="take a walk in a park" w="公園を散歩します" reading="こうえんをさんぽします"></word>
+			
+			<word meaning="hard,tough,awful" w="大変な" reading="たいへんな"></word>
+			
+			<word meaning="want a thing,want" w="欲しい" reading="ほしい"></word>
+			
+			<word meaning="wide,spacious" w="広い" reading="ひろい"></word>
+			<word meaning="narrow,small" w="狭い" reading="せまい"></word>
+			
+			<word meaning="swimming pool" w="プール"></word>
+			<word meaning="river" w="川" reading="かわ"></word>
+			
+			<word meaning="fine arts,arts" w="美術" reading="びじゅつ"></word>
+			<word meaning="fishing" w="釣り" reading="つり"></word>
+			<word meaning="to fish" w="釣りをします" reading="つりをします"></word>
+			<word meaning="skiing" w="スキー"></word>
+			<word meaning="to ski" w="スキーをします"></word>
+			
+			<word meaning="weekend" w="週末" reading="しゅうまつ"></word>
+			<word meaning="new years day,new year" w="おしょうがつ" reading="おしょうがつ"></word>
+			
+			<word meaning="about time" w="ごろ"></word>
+			
+			<word meaning="something" w="何か" reading="なにか"></word>
+			<word meaning="somewhere,someplace" w="どこか"></word>
+			
+			<word meaning="get thirsty" w="のどがかわきます"></word>
+			
+			<word meaning="get hungry" w="おなかがすきます"></word>
+			
+			<word meaning="let's do that" w="そうしましょう"></word>
+			
+			<word meaning="may i take your order" w="ご注文は" reading="ごちゅうもんは"></word>
+			<word meaning="set menu" w="定食" reading="ていしょく"></word>
+			<word meaning="beef rice" w="牛どん" reading="ぎゅうどん"></word>
+			<word meaning="please wait a moment" w="少々　お待ちください" reading="しょうしょう　おまちください"></word>
+			<word meaning="polite" w="で　ございます"></word>
+			<word meaning="seperately" w="別々に" reading="べつべつに"></word>
+		</vocabulary>
+	</lesson>
 </data>
