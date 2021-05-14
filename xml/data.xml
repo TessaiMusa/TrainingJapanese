@@ -845,4 +845,60 @@
 			<word meaning="seperately" w="別々に" reading="べつべつに"></word>
 		</vocabulary>
 	</lesson>
+	<lesson name="みどり町まで　おねがいします">
+		<vocabulary>
+			<word meaning="to turn on,turn on" w="つける"></word>
+			<word meaning="to turn off,turn off" w="消す" reading="けす"></word>
+			<word meaning="to open" w="開ける" reading="あける"></word>
+			<word meaning="to close, to shut" w="閉める" reading="しめる"></word>
+			
+			<word meaning="to hurry" w="急ぐ" reading="いそぐ"></word>
+			<word meaning="to wait" w="待つ" reading="まつ"></word>
+			<word meaning="to hold" w="持つ" reading="もつ"></word>
+			<word meaning="to help,to help with a task" w="手伝う" reading="てつだう"></word>
+			<word meaning="to call" w="呼ぶ" reading="よぶ"></word>
+			<word meaning="to speak,to talk" w="話す" reading="はなす"></word>
+			<word meaning="to use" w="使う" reading="つかう"></word>
+			<word meaning="to stop,to park" w="止める" reading="とめる"></word>
+			<word meaning="to show" w="見せる" reading="見せる"></word>
+			<word meaning="to tell an adress" w="住所を教えます" reading="じゅうしょをおしえます"></word>
+			
+			<word meaning="to sit,to sit down" w="座る" reading="すわる"></word>
+			<word meaning="to stand,to stand up" w="立つ" reading="たつ"></word>
+			<word meaning="to enter" w="入る" reading="はいる"></word>
+			<word meaning="enter a cafe" w="喫茶店に入る" reading="きっさてんにはいる"></word>
+			<word meaning="to leave,to go out" w="出る" reading="でる"></word>
+			<word meaning="leave the cafe,go out of the cafe" w="喫茶店を出ます" reading="きっさてんをでます"></word>
+			<word meaning="to fall" w="降る" reading="ふる"></word>
+			<word meaning="raining" w="雨が降ります" reading="あめがふります"></word>
+			<word meaning="to copy" w="コピーします"></word>
+			
+			<word meaning="electricity,light" w="電気" reading="でんき"></word>
+			<word meaning="air conditioner,ac" w="エアコン"></word>
+			
+			<word meaning="passport" w="パスポート"></word>
+			<word meaning="address" w="住所" reading="じゅうしょ"></word>
+			<word meaning="map" w="地図" reading="ちず"></word>
+			
+			<word meaning="salt" w="塩" reading="しお"></word>
+			<word meaning="sugar" w="砂糖" reading="さとう"></word>
+			<word meaning="question,problem,trouble" w="問題" reading="もんだい"></word>
+			<word meaning="answer" w="答え" reading="こたえ"></word>
+			
+			<word meaning="way of reading,how to read" w="読み方" reading="よみかた"></word>
+			<word meaning="the way of" w="方" reading="かた"></word>
+			
+			<word meaning="straight" w="まっすぐ"></word>
+			<word meaning="slowly,leisurely" w="ゆっくり"></word>
+			<word meaning="immediately" w="すぐ"></word>
+			<word meaning="again" w="また"></word>
+			<word meaning="later" w="あとで"></word>
+			<word meaning="a little more" w="もうすこし"></word>
+			<word meaning="more" w="もう"></word>
+			
+			<word meaning="please turn right at the traffic lights" w="信号をみぎへ曲がってください" reading="しんごうをみぎへまがってください"></word>
+			<word meaning="i would like to pay with this" w="これでお願いします" reading="これでおねがいします"></word>
+			<word meaning="change" w="お釣り" reading="おつり"></word>
+		</vocabulary>
+	</lesson>
 </data>
