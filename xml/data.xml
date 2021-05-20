@@ -392,7 +392,7 @@
 			<word meaning="to borrow" w="借りる" reading="かりる"></word>
 			<word meaning="to teach" w="教える" reading="おしえる"></word>
 			<word meaning="to learn" w="習う" reading="ならう"></word>
-			<word meaning="to make" w="かける"></word>
+			<word meaning="to dail" w="かける"></word>
 			<word meaning="to make call,to make a call,to make telephone call,to make a phone call" w="電話をかけます" reading="でんわをかけます"></word>
 			
 			<word meaning="arm,hand" w="手" reading="て" voice="て"></word>
@@ -853,6 +853,7 @@
 			<word meaning="to close, to shut" w="閉める" reading="しめる"></word>
 			
 			<word meaning="to hurry" w="急ぐ" reading="いそぐ"></word>
+			<word meaning="to grab,to pickup" w="取る" reading="とる"></word>
 			<word meaning="to wait" w="待つ" reading="まつ"></word>
 			<word meaning="to hold" w="持つ" reading="もつ"></word>
 			<word meaning="to help,to help with a task" w="手伝う" reading="てつだう"></word>
@@ -899,6 +900,40 @@
 			<word meaning="please turn right at the traffic lights" w="信号をみぎへ曲がってください" reading="しんごうをみぎへまがってください"></word>
 			<word meaning="i would like to pay with this" w="これでお願いします" reading="これでおねがいします"></word>
 			<word meaning="change" w="お釣り" reading="おつり"></word>
+		</vocabulary>
+	</lesson>
+	<lesson name="ご家族は？">
+		<vocabulary>
+			<word meaning="to put,to place" w="置く" reading="おく"></word>
+			<word meaning="to make" w="作る" reading="つくる"></word>
+			<word meaning="to sell" w="売る" reading="うる"></word>
+			<word meaning="to be aware off,get to know" w="知る" reading="しる"></word>
+			<word meaning="to live" w="住む" reading="すむ"></word>
+			<word meaning="to research" w="研究する" reading="けんきゅうする"></word>
+			
+			<word meaning="data,materials" w="資料" reading="しりょう"></word>
+			<word meaning="catalogue" w="カタログ"></word>
+			<word meaning="timetable,shedule" w="時刻表" reading="じこくひょう"></word>
+			
+			<word meaning="cloths" w="服" reading="ふく"></word>
+			<word meaning="products" w="製品" reading="せいひん"></word>
+			<word meaning="software" w="ソフト"></word>
+			<word meaning="electronic dictionary" w="電子辞書" reading="でんしじしょ"></word>
+			
+			<word meaning="economy" w="経済" reading="けいざい"></word>
+			
+			<word meaning="city hall,municipal office" w="市役所" reading="しやくしょ"></word>
+			<word meaning="senior high school" w="高校" reading="こうこう"></word>
+			
+			<word meaning="dentist" w="歯医者" reading="はいしゃ"></word>
+			
+			<word meaning="single,unmarried" w="独身" reading="どくしん"></word>
+			
+			<word meaning="ladies and gentlemen" w="皆さん" reading="みなさん"></word>
+			
+			<word meaning="to recollect" w="思い出す" reading="おもいだす"></word>
+			<word meaning="to exist,to be"w="いらっしゃる" polite="polite"></word>
+			
 		</vocabulary>
 	</lesson>
 </data>
