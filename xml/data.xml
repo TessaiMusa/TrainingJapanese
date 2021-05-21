@@ -936,4 +936,74 @@
 			
 		</vocabulary>
 	</lesson>
+	<lesson>
+		<vocabulary>
+			<word meaning="to board,to embark,to get on" w="乗る" reading="のる"></word>
+			<word meaning="to board the train,to embark the train,to get on the train" w="電車に乗ります" reading="でんしゃにのります"></word>
+			<word meaning="to disembark,to dismount,to get off" w="降りる" reading="おりる"></word>
+			<word meaning="to disembark the train,to get off the train" w="電車を降ります" reading="でんしゃをおります"></word>
+			<word meaning="to transfer" w="乗り換える" reading="のりかえる"></word>
+			<word meaning="to bathe in,to be covered in" w="浴びる" reading="あびる"></word>
+			<word meaning="to take a shower" w="シャワーを浴びます" reading="シャワーをあびます"></word>
+			
+			<word meaning="to insert,to install" w="入れる" reading="いれる"></word>
+			<word meaning="to take out,to hand in" w="出す" reading="だす"></word>
+			<word meaning="to withdraw" w="下ろす" reading="おろす"></word>
+			<word meaning="to widthraw money" w="お金を下ろします" reading="おかねを下ろします"></word>
+			<word meaning="to enter the university" w="大学に入ります" reading="だいがくにはいります"></word>
+			<word meaning="to graduate from university" w="大学を出ます" reading="だいがくをでます"></word>
+			
+			<word meaning="to press,to push" w="押す" reading="おす"></word>
+			<word meaning="to start,to begin" w="始める" reading="はじめる"></word>
+			<word meaning="to tour,to visit a place to study" w="見学する" reading="けんがくする"></word>
+			<word meaning="to phone" w="電話する" reading="でんわする"></word>
+			
+			<word meaning="young" w="若い" reading="わかい"></word>
+			<word meaning="long" w="長い" reading="ながい"></word>
+			<word meaning="short" w="短い" reading="みじかい"></word>
+			<word meaning="bright" w="明るい" reading="あかるい"></word>
+			<word meaning="dark" w="暗い" reading="暗い"></word>
+			
+			<word meaning="body" w="体" reading="からだ"></word>
+			<word meaning="head,brain" w="頭" reading="あたま"></word>
+			<word meaning="hair" w="髪" reading="かみ"></word>
+			<word meaning="face" w="顔" reading="かお"></word>
+			<word meaning="eye" w="目" reading="め"></word>
+			<word meaning="ear" w="耳" reading="みみ"></word>
+			<word meaning="nose" w="鼻" reading="はな"></word>
+			<word meaning="mouth" w="口" reading="くち"></word>
+			<word meaning="tooth,teeth" w="歯" reading="は"></word>
+			<word meaning="stomach" w="おなか"></word>
+			<word meaning="leg,foot" w="足" reading="あし"></word>
+			<word meaning="height" w="背" reading="は"></word>
+			
+			<word meaning="service" w="サービス"></word>
+			<word meaning="jogging" w="ジョギング"></word>
+			<word meaning="to jog" w="ジョギングをします"></word>
+			
+			<word meaning="green,greenery" w="緑" reading="みどり"></word>
+			<word meaning="temple,buddhist temple" w="お寺" reading="おてら"></word>
+			<word meaning="shrine,shinto shrine" w="神社" reading="じんじゃ"></word>
+						
+			<word meaning="in what way,by what means" w="どうやって"></word>
+			
+			<word meaning="thats amazing" w="すごいですね"></word>
+			<word meaning="no i still have a long way to go" w="いいえ、まだまだです"></word>
+			
+			<word meaning="are you making a withdrawal?" w="お引き出しますか" reading="おひきだしますか"></word>
+			<word meaning="first of all" w="まず"></word>
+			<word meaning="next step" w="次に" reading="つぎに"></word>
+			<word meaning="cash dispensing card" w="キャッシュカード"></word>
+			<word meaning="pin" w="温床番号" reading="おんしょうばんごう"></word>
+			<word meaning="amount of money" w="金額" reading="きんがく"></word>
+			<word meaning="confirmation" w="確認" reading="かくにん"></word>
+			<word meaning="to confirm" w="確認する" reading="確認する"></word>
+			<word meaning="button" w="バタン"></word>
+			<word meaning="snow festival" w="雪祭り" reading=""></word>
+			<word meaning="" w="" reading=""></word>
+			<word meaning="" w="" reading=""></word>
+			<word meaning="" w="" reading=""></word>
+			<word meaning="" w="" reading=""></word>
+		</vocabulary>
+	</lesson>
 </data>
